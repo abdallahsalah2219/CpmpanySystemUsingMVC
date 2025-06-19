@@ -1,0 +1,16 @@
+F:\back_end\Back-End Basem\Ahmed Nasr\MVC\CompanySystem.PL\BLL\bin\Debug\net5.0\BLL.deps.json
+F:\back_end\Back-End Basem\Ahmed Nasr\MVC\CompanySystem.PL\BLL\bin\Debug\net5.0\BLL.dll
+F:\back_end\Back-End Basem\Ahmed Nasr\MVC\CompanySystem.PL\BLL\bin\Debug\net5.0\BLL.pdb
+F:\back_end\Back-End Basem\Ahmed Nasr\MVC\CompanySystem.PL\BLL\bin\Debug\net5.0\DAL.dll
+F:\back_end\Back-End Basem\Ahmed Nasr\MVC\CompanySystem.PL\BLL\bin\Debug\net5.0\DAL.pdb
+F:\back_end\Back-End Basem\Ahmed Nasr\MVC\CompanySystem.PL\BLL\obj\Debug\net5.0\BLL.csproj.AssemblyReference.cache
+F:\back_end\Back-End Basem\Ahmed Nasr\MVC\CompanySystem.PL\BLL\obj\Debug\net5.0\BLL.GeneratedMSBuildEditorConfig.editorconfig
+F:\back_end\Back-End Basem\Ahmed Nasr\MVC\CompanySystem.PL\BLL\obj\Debug\net5.0\BLL.AssemblyInfoInputs.cache
+F:\back_end\Back-End Basem\Ahmed Nasr\MVC\CompanySystem.PL\BLL\obj\Debug\net5.0\BLL.AssemblyInfo.cs
+F:\back_end\Back-End Basem\Ahmed Nasr\MVC\CompanySystem.PL\BLL\obj\Debug\net5.0\BLL.csproj.CoreCompileInputs.cache
+F:\back_end\Back-End Basem\Ahmed Nasr\MVC\CompanySystem.PL\BLL\obj\Debug\net5.0\BLL.sourcelink.json
+F:\back_end\Back-End Basem\Ahmed Nasr\MVC\CompanySystem.PL\BLL\obj\Debug\net5.0\BLL.csproj.Up2Date
+F:\back_end\Back-End Basem\Ahmed Nasr\MVC\CompanySystem.PL\BLL\obj\Debug\net5.0\BLL.dll
+F:\back_end\Back-End Basem\Ahmed Nasr\MVC\CompanySystem.PL\BLL\obj\Debug\net5.0\refint\BLL.dll
+F:\back_end\Back-End Basem\Ahmed Nasr\MVC\CompanySystem.PL\BLL\obj\Debug\net5.0\BLL.pdb
+F:\back_end\Back-End Basem\Ahmed Nasr\MVC\CompanySystem.PL\BLL\obj\Debug\net5.0\ref\BLL.dll

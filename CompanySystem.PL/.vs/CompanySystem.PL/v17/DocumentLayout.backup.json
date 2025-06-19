@@ -1,0 +1,162 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "F:\\back_end\\Back-End Basem\\Ahmed Nasr\\MVC\\CompanySystem.PL\\CompanySystem.PL\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{3A5694A5-9B38-43D8-94F6-50B019C6B867}|..\\DAL\\DAL.csproj|f:\\back_end\\back-end basem\\ahmed nasr\\mvc\\companysystem.pl\\dal\\data\\migrations\\20250619031406_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C407C843-D05F-4248-A55B-EB76848CECBC}|CompanySystem.PL.csproj|f:\\back_end\\back-end basem\\ahmed nasr\\mvc\\companysystem.pl\\companysystem.pl\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C407C843-D05F-4248-A55B-EB76848CECBC}|CompanySystem.PL.csproj|solutionrelative:startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C407C843-D05F-4248-A55B-EB76848CECBC}|CompanySystem.PL.csproj|f:\\back_end\\back-end basem\\ahmed nasr\\mvc\\companysystem.pl\\companysystem.pl\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{C407C843-D05F-4248-A55B-EB76848CECBC}|CompanySystem.PL.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3A5694A5-9B38-43D8-94F6-50B019C6B867}|..\\DAL\\DAL.csproj|f:\\back_end\\back-end basem\\ahmed nasr\\mvc\\companysystem.pl\\dal\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FF203E04-35D2-401A-A1AF-71ECF59B27FF}|..\\BLL\\BLL.csproj|f:\\back_end\\back-end basem\\ahmed nasr\\mvc\\companysystem.pl\\bll\\repositories\\departmentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FF203E04-35D2-401A-A1AF-71ECF59B27FF}|..\\BLL\\BLL.csproj|f:\\back_end\\back-end basem\\ahmed nasr\\mvc\\companysystem.pl\\bll\\interfaces\\idepartmentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3A5694A5-9B38-43D8-94F6-50B019C6B867}|..\\DAL\\DAL.csproj|f:\\back_end\\back-end basem\\ahmed nasr\\mvc\\companysystem.pl\\dal\\data\\configurations\\departmentconfigurations.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3A5694A5-9B38-43D8-94F6-50B019C6B867}|..\\DAL\\DAL.csproj|f:\\back_end\\back-end basem\\ahmed nasr\\mvc\\companysystem.pl\\dal\\models\\department.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "20250619031406_InitialCreate.cs",
+              "DocumentMoniker": "F:\\back_end\\Back-End Basem\\Ahmed Nasr\\MVC\\CompanySystem.PL\\DAL\\Data\\Migrations\\20250619031406_InitialCreate.cs",
+              "RelativeDocumentMoniker": "..\\DAL\\Data\\Migrations\\20250619031406_InitialCreate.cs",
+              "ToolTip": "F:\\back_end\\Back-End Basem\\Ahmed Nasr\\MVC\\CompanySystem.PL\\DAL\\Data\\Migrations\\20250619031406_InitialCreate.cs",
+              "RelativeToolTip": "..\\DAL\\Data\\Migrations\\20250619031406_InitialCreate.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-19T03:14:07.297Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "F:\\back_end\\Back-End Basem\\Ahmed Nasr\\MVC\\CompanySystem.PL\\CompanySystem.PL\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "F:\\back_end\\Back-End Basem\\Ahmed Nasr\\MVC\\CompanySystem.PL\\CompanySystem.PL\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-06-19T02:55:56.208Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Startup.cs",
+              "DocumentMoniker": "F:\\back_end\\Back-End Basem\\Ahmed Nasr\\MVC\\CompanySystem.PL\\CompanySystem.PL\\Startup.cs",
+              "RelativeDocumentMoniker": "Startup.cs",
+              "ToolTip": "F:\\back_end\\Back-End Basem\\Ahmed Nasr\\MVC\\CompanySystem.PL\\CompanySystem.PL\\Startup.cs",
+              "RelativeToolTip": "Startup.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAwCMAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-18T17:50:06.024Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "DepartmentRepository.cs",
+              "DocumentMoniker": "F:\\back_end\\Back-End Basem\\Ahmed Nasr\\MVC\\CompanySystem.PL\\BLL\\Repositories\\DepartmentRepository.cs",
+              "RelativeDocumentMoniker": "..\\BLL\\Repositories\\DepartmentRepository.cs",
+              "ToolTip": "F:\\back_end\\Back-End Basem\\Ahmed Nasr\\MVC\\CompanySystem.PL\\BLL\\Repositories\\DepartmentRepository.cs",
+              "RelativeToolTip": "..\\BLL\\Repositories\\DepartmentRepository.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAADAAAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-18T17:30:32.134Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "IDepartmentRepository.cs",
+              "DocumentMoniker": "F:\\back_end\\Back-End Basem\\Ahmed Nasr\\MVC\\CompanySystem.PL\\BLL\\Interfaces\\IDepartmentRepository.cs",
+              "RelativeDocumentMoniker": "..\\BLL\\Interfaces\\IDepartmentRepository.cs",
+              "ToolTip": "F:\\back_end\\Back-End Basem\\Ahmed Nasr\\MVC\\CompanySystem.PL\\BLL\\Interfaces\\IDepartmentRepository.cs",
+              "RelativeToolTip": "..\\BLL\\Interfaces\\IDepartmentRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-18T17:20:48.564Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "F:\\back_end\\Back-End Basem\\Ahmed Nasr\\MVC\\CompanySystem.PL\\DAL\\Data\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "..\\DAL\\Data\\AppDbContext.cs",
+              "ToolTip": "F:\\back_end\\Back-End Basem\\Ahmed Nasr\\MVC\\CompanySystem.PL\\DAL\\Data\\AppDbContext.cs",
+              "RelativeToolTip": "..\\DAL\\Data\\AppDbContext.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABQAAABKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-18T16:46:46.573Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "DepartmentConfigurations.cs",
+              "DocumentMoniker": "F:\\back_end\\Back-End Basem\\Ahmed Nasr\\MVC\\CompanySystem.PL\\DAL\\Data\\Configurations\\DepartmentConfigurations.cs",
+              "RelativeDocumentMoniker": "..\\DAL\\Data\\Configurations\\DepartmentConfigurations.cs",
+              "ToolTip": "F:\\back_end\\Back-End Basem\\Ahmed Nasr\\MVC\\CompanySystem.PL\\DAL\\Data\\Configurations\\DepartmentConfigurations.cs",
+              "RelativeToolTip": "..\\DAL\\Data\\Configurations\\DepartmentConfigurations.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-18T16:40:47.387Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Department.cs",
+              "DocumentMoniker": "F:\\back_end\\Back-End Basem\\Ahmed Nasr\\MVC\\CompanySystem.PL\\DAL\\Models\\Department.cs",
+              "RelativeDocumentMoniker": "..\\DAL\\Models\\Department.cs",
+              "ToolTip": "F:\\back_end\\Back-End Basem\\Ahmed Nasr\\MVC\\CompanySystem.PL\\DAL\\Models\\Department.cs",
+              "RelativeToolTip": "..\\DAL\\Models\\Department.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-18T16:28:05.771Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

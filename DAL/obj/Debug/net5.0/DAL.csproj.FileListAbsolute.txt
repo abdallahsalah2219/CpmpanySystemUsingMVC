@@ -1,0 +1,13 @@
+F:\back_end\Back-End Basem\Ahmed Nasr\MVC\CompanySystem.PL\DAL\bin\Debug\net5.0\DAL.deps.json
+F:\back_end\Back-End Basem\Ahmed Nasr\MVC\CompanySystem.PL\DAL\bin\Debug\net5.0\DAL.dll
+F:\back_end\Back-End Basem\Ahmed Nasr\MVC\CompanySystem.PL\DAL\bin\Debug\net5.0\DAL.pdb
+F:\back_end\Back-End Basem\Ahmed Nasr\MVC\CompanySystem.PL\DAL\obj\Debug\net5.0\DAL.GeneratedMSBuildEditorConfig.editorconfig
+F:\back_end\Back-End Basem\Ahmed Nasr\MVC\CompanySystem.PL\DAL\obj\Debug\net5.0\DAL.AssemblyInfoInputs.cache
+F:\back_end\Back-End Basem\Ahmed Nasr\MVC\CompanySystem.PL\DAL\obj\Debug\net5.0\DAL.AssemblyInfo.cs
+F:\back_end\Back-End Basem\Ahmed Nasr\MVC\CompanySystem.PL\DAL\obj\Debug\net5.0\DAL.csproj.CoreCompileInputs.cache
+F:\back_end\Back-End Basem\Ahmed Nasr\MVC\CompanySystem.PL\DAL\obj\Debug\net5.0\DAL.sourcelink.json
+F:\back_end\Back-End Basem\Ahmed Nasr\MVC\CompanySystem.PL\DAL\obj\Debug\net5.0\DAL.dll
+F:\back_end\Back-End Basem\Ahmed Nasr\MVC\CompanySystem.PL\DAL\obj\Debug\net5.0\refint\DAL.dll
+F:\back_end\Back-End Basem\Ahmed Nasr\MVC\CompanySystem.PL\DAL\obj\Debug\net5.0\DAL.pdb
+F:\back_end\Back-End Basem\Ahmed Nasr\MVC\CompanySystem.PL\DAL\obj\Debug\net5.0\ref\DAL.dll
+F:\back_end\Back-End Basem\Ahmed Nasr\MVC\CompanySystem.PL\DAL\obj\Debug\net5.0\DAL.csproj.AssemblyReference.cache
