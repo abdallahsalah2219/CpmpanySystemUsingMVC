@@ -33,7 +33,7 @@ namespace CompanySystem.PL
                 options.UseSqlServer(Configuration.GetConnectionString("DefaultConnection"));
             });
             
-           // services.AddScoped<IDepartmentRepository,DepartmentRepository>();
+            services.AddScoped<IDepartmentRepository,DepartmentRepository>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

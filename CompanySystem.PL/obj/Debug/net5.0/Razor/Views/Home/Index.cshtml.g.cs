@@ -20,14 +20,20 @@ using CompanySystem.PL
     ;
 #nullable restore
 #line 2 "F:\back_end\Back-End Basem\Ahmed Nasr\MVC\CompanySystem.PL\CompanySystem.PL\Views\_ViewImports.cshtml"
-using CompanySystem.PL.Models
+using CompanySystem.PL.ViewModels
+
+#nullable disable
+    ;
+#nullable restore
+#line 3 "F:\back_end\Back-End Basem\Ahmed Nasr\MVC\CompanySystem.PL\CompanySystem.PL\Views\_ViewImports.cshtml"
+using DAL.Models
 
 #nullable disable
     ;
     #line default
     #line hidden
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"Sha256", @"2999aea4fd9585148590d2af132f38ffc044fe9b3869b38d4a2bbf6259d065ea", @"/Views/Home/Index.cshtml")]
-    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"Sha256", @"078ccad3afd489b255fd6c3f8395ffb0c191391c8f0668b976b9a14d2aa5c9e6", @"/Views/_ViewImports.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"Sha256", @"bf26a0470c384eb6691f3911b5b8a7dae15178e90709c913deb8864d1d432dfb", @"/Views/_ViewImports.cshtml")]
     #nullable restore
     internal sealed class Views_Home_Index : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<dynamic>
     #nullable disable
