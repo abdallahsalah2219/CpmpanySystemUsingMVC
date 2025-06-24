@@ -444,3 +444,8 @@ F:\back_end\Back-End Basem\Ahmed Nasr\MVC\CompanySystem.PL\CompanySystem.PL\bin\
 F:\back_end\Back-End Basem\Ahmed Nasr\MVC\CompanySystem.PL\CompanySystem.PL\obj\Debug\net5.0\Razor\Views\Department\Details.cshtml.g.cs
 F:\back_end\Back-End Basem\Ahmed Nasr\MVC\CompanySystem.PL\CompanySystem.PL\obj\Debug\net5.0\Razor\Views\Department\Edit.cshtml.g.cs
 F:\back_end\Back-End Basem\Ahmed Nasr\MVC\CompanySystem.PL\CompanySystem.PL\obj\Debug\net5.0\Razor\Views\Department\Delete.cshtml.g.cs
+F:\back_end\Back-End Basem\Ahmed Nasr\MVC\CompanySystem.PL\CompanySystem.PL\obj\Debug\net5.0\Razor\Views\Employee\Create.cshtml.g.cs
+F:\back_end\Back-End Basem\Ahmed Nasr\MVC\CompanySystem.PL\CompanySystem.PL\obj\Debug\net5.0\Razor\Views\Employee\Delete.cshtml.g.cs
+F:\back_end\Back-End Basem\Ahmed Nasr\MVC\CompanySystem.PL\CompanySystem.PL\obj\Debug\net5.0\Razor\Views\Employee\Details.cshtml.g.cs
+F:\back_end\Back-End Basem\Ahmed Nasr\MVC\CompanySystem.PL\CompanySystem.PL\obj\Debug\net5.0\Razor\Views\Employee\Edit.cshtml.g.cs
+F:\back_end\Back-End Basem\Ahmed Nasr\MVC\CompanySystem.PL\CompanySystem.PL\obj\Debug\net5.0\Razor\Views\Employee\Index.cshtml.g.cs

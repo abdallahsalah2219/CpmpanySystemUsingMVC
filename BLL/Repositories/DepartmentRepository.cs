@@ -10,45 +10,12 @@ using System.Threading.Tasks;
 
 namespace BLL.Repositories
 {
-    public class DepartmentRepository : IDepartmentRepository
+    public class DepartmentRepository : GenericRepository<Department>, IDepartmentRepository
     {
-        private readonly AppDbContext _appDbContext;
-        public DepartmentRepository(AppDbContext appDbContext)
+       // private readonly AppDbContext _appDbContext;
+        public DepartmentRepository(AppDbContext appDbContext) : base(appDbContext)
         {
-            _appDbContext = appDbContext;
+           // _appDbContext = appDbContext;
         }
-        public int Add(Department entity)
-        {
-            _appDbContext.Departments.Add(entity);
-            return _appDbContext.SaveChanges();
-        }
-        public int Update(Department entity)
-        {
-           _appDbContext.Departments.Update(entity);
-            return _appDbContext.SaveChanges();
-        }
-        public int Delete(Department entity)
-        {
-            _appDbContext.Departments.Remove(entity);
-            return _appDbContext.SaveChanges();
-        }
-
-        public Department Get(int id)
-        {
-            ///var department = _appDbContext.Departments.Local.Where(D=>D.Id==id).FirstOrDefault();
-            ///  if (department is null)
-            ///      department = _appDbContext.Departments.Where(D => D.Id == id).FirstOrDefault();
-            ///  return department;
-            ///  
-            // return _appDbContext.Departments.Find(id);
-            return _appDbContext.Find<Department>(id);
-        }
-
-        public IEnumerable<Department> GetAll()
-        {
-            return _appDbContext.Departments.AsNoTracking().ToList();
-        }
-
-        
     }
 }

@@ -1,0 +1,56 @@
+﻿@model Employee
+@{
+    ViewData["Title"] = "Create";
+}
+
+<h1>Create New Employee</h1>
+<br />
+<br />
+<form asp-action="Create" asp-controller="Employee" >
+   
+
+    <div class="form-group">
+        <label asp-for="@Model.Name" class="col-form-label"></label>
+        <input asp-for="@Model.Name" class="form-control" />
+        <span asp-validation-for="@Model.Name" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="@Model.Age" class="col-form-label"></label>
+        <input asp-for="@Model.Age" class="form-control" />
+        <span asp-validation-for="@Model.Age" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="@Model.Address" class="col-form-label"></label>
+        <input asp-for="@Model.Address" class="form-control" />
+        <span asp-validation-for="@Model.Address" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="@Model.Salary" class="col-form-label"></label>
+        <input asp-for="@Model.Salary" class="form-control" />
+        <span asp-validation-for="@Model.Salary" class="text-danger"></span>
+    </div>
+    <div class="form-check">
+        <input asp-for="@Model.IsActive" class="form-check-input" />
+        <label asp-for="@Model.IsActive" class="col-form-label"></label>
+    </div>
+    <div class="form-group">
+        <label asp-for="@Model.Email" class="col-form-label"></label>
+        <input asp-for="@Model.Email" class="form-control" />
+        <span asp-validation-for="@Model.Email" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="@Model.PhoneNumber" class="col-form-label"></label>
+        <input asp-for="@Model.PhoneNumber" class="form-control" />
+        <span asp-validation-for="@Model.PhoneNumber" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="@Model.HireDate" class="col-form-label"></label>
+        <input asp-for="@Model.HireDate" class="form-control" />
+    </div>
+
+   
+    <br />
+    <input type="submit" value="Create" class="btn btn-primary" /> |
+    <a asp-action="Index" class="btn btn-light">Back To List</a>
+</form>
+

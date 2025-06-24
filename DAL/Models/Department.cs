@@ -7,9 +7,9 @@ using System.Threading.Tasks;
 
 namespace DAL.Models
 {
-    public class Department
+    public class Department : BaseEntity
     {
-        public int Id { get; set; }
+       
         [Required(ErrorMessage ="Code Is Required!!")]
         public string Code { get; set; }
         [Required(ErrorMessage = "Name Is Required!!")]
