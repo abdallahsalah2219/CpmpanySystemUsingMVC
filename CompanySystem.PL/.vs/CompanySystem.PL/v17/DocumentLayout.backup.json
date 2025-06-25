@@ -3,43 +3,18 @@
   "WorkspaceRootPath": "F:\\back_end\\Back-End Basem\\Ahmed Nasr\\MVC\\CompanySystem.PL\\CompanySystem.PL\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{C407C843-D05F-4248-A55B-EB76848CECBC}|CompanySystem.PL.csproj|f:\\back_end\\back-end basem\\ahmed nasr\\mvc\\companysystem.pl\\companysystem.pl\\views\\employee\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{C407C843-D05F-4248-A55B-EB76848CECBC}|CompanySystem.PL.csproj|solutionrelative:views\\employee\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{FF203E04-35D2-401A-A1AF-71ECF59B27FF}|..\\BLL\\BLL.csproj|f:\\back_end\\back-end basem\\ahmed nasr\\mvc\\companysystem.pl\\bll\\repositories\\genericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3A5694A5-9B38-43D8-94F6-50B019C6B867}|..\\DAL\\DAL.csproj|f:\\back_end\\back-end basem\\ahmed nasr\\mvc\\companysystem.pl\\dal\\models\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C407C843-D05F-4248-A55B-EB76848CECBC}|CompanySystem.PL.csproj|f:\\back_end\\back-end basem\\ahmed nasr\\mvc\\companysystem.pl\\companysystem.pl\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C407C843-D05F-4248-A55B-EB76848CECBC}|CompanySystem.PL.csproj|solutionrelative:startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C407C843-D05F-4248-A55B-EB76848CECBC}|CompanySystem.PL.csproj|f:\\back_end\\back-end basem\\ahmed nasr\\mvc\\companysystem.pl\\companysystem.pl\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{C407C843-D05F-4248-A55B-EB76848CECBC}|CompanySystem.PL.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C407C843-D05F-4248-A55B-EB76848CECBC}|CompanySystem.PL.csproj|f:\\back_end\\back-end basem\\ahmed nasr\\mvc\\companysystem.pl\\companysystem.pl\\views\\employee\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{C407C843-D05F-4248-A55B-EB76848CECBC}|CompanySystem.PL.csproj|solutionrelative:views\\employee\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C407C843-D05F-4248-A55B-EB76848CECBC}|CompanySystem.PL.csproj|f:\\back_end\\back-end basem\\ahmed nasr\\mvc\\companysystem.pl\\companysystem.pl\\views\\employee\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{C407C843-D05F-4248-A55B-EB76848CECBC}|CompanySystem.PL.csproj|solutionrelative:views\\employee\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C407C843-D05F-4248-A55B-EB76848CECBC}|CompanySystem.PL.csproj|f:\\back_end\\back-end basem\\ahmed nasr\\mvc\\companysystem.pl\\companysystem.pl\\views\\employee\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{C407C843-D05F-4248-A55B-EB76848CECBC}|CompanySystem.PL.csproj|solutionrelative:views\\employee\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C407C843-D05F-4248-A55B-EB76848CECBC}|CompanySystem.PL.csproj|f:\\back_end\\back-end basem\\ahmed nasr\\mvc\\companysystem.pl\\companysystem.pl\\views\\employee\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{C407C843-D05F-4248-A55B-EB76848CECBC}|CompanySystem.PL.csproj|solutionrelative:views\\employee\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{FF203E04-35D2-401A-A1AF-71ECF59B27FF}|..\\BLL\\BLL.csproj|f:\\back_end\\back-end basem\\ahmed nasr\\mvc\\companysystem.pl\\bll\\repositories\\employeerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C407C843-D05F-4248-A55B-EB76848CECBC}|CompanySystem.PL.csproj|f:\\back_end\\back-end basem\\ahmed nasr\\mvc\\companysystem.pl\\companysystem.pl\\controllers\\employeecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C407C843-D05F-4248-A55B-EB76848CECBC}|CompanySystem.PL.csproj|solutionrelative:controllers\\employeecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C407C843-D05F-4248-A55B-EB76848CECBC}|CompanySystem.PL.csproj|f:\\back_end\\back-end basem\\ahmed nasr\\mvc\\companysystem.pl\\companysystem.pl\\controllers\\departmentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C407C843-D05F-4248-A55B-EB76848CECBC}|CompanySystem.PL.csproj|solutionrelative:controllers\\departmentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C407C843-D05F-4248-A55B-EB76848CECBC}|CompanySystem.PL.csproj|f:\\back_end\\back-end basem\\ahmed nasr\\mvc\\companysystem.pl\\companysystem.pl\\views\\employee\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C407C843-D05F-4248-A55B-EB76848CECBC}|CompanySystem.PL.csproj|solutionrelative:views\\employee\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -49,7 +24,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 10,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -65,132 +40,54 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Startup.cs",
-              "DocumentMoniker": "F:\\back_end\\Back-End Basem\\Ahmed Nasr\\MVC\\CompanySystem.PL\\CompanySystem.PL\\Startup.cs",
-              "RelativeDocumentMoniker": "Startup.cs",
-              "ToolTip": "F:\\back_end\\Back-End Basem\\Ahmed Nasr\\MVC\\CompanySystem.PL\\CompanySystem.PL\\Startup.cs",
-              "RelativeToolTip": "Startup.cs",
-              "ViewState": "AgIAABsAAAAAAAAAAAAYwAAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "GenericRepository.cs",
+              "DocumentMoniker": "F:\\back_end\\Back-End Basem\\Ahmed Nasr\\MVC\\CompanySystem.PL\\BLL\\Repositories\\GenericRepository.cs",
+              "RelativeDocumentMoniker": "..\\BLL\\Repositories\\GenericRepository.cs",
+              "ToolTip": "F:\\back_end\\Back-End Basem\\Ahmed Nasr\\MVC\\CompanySystem.PL\\BLL\\Repositories\\GenericRepository.cs",
+              "RelativeToolTip": "..\\BLL\\Repositories\\GenericRepository.cs",
+              "ViewState": "AgIAAB8AAAAAAAAAAAAkwCwAAAAlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-24T04:50:03.916Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "F:\\back_end\\Back-End Basem\\Ahmed Nasr\\MVC\\CompanySystem.PL\\CompanySystem.PL\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "F:\\back_end\\Back-End Basem\\Ahmed Nasr\\MVC\\CompanySystem.PL\\CompanySystem.PL\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAAAB4AAAArAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-06-24T04:26:35.686Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Delete.cshtml",
-              "DocumentMoniker": "F:\\back_end\\Back-End Basem\\Ahmed Nasr\\MVC\\CompanySystem.PL\\CompanySystem.PL\\Views\\Employee\\Delete.cshtml",
-              "RelativeDocumentMoniker": "Views\\Employee\\Delete.cshtml",
-              "ToolTip": "F:\\back_end\\Back-End Basem\\Ahmed Nasr\\MVC\\CompanySystem.PL\\CompanySystem.PL\\Views\\Employee\\Delete.cshtml",
-              "RelativeToolTip": "Views\\Employee\\Delete.cshtml",
-              "ViewState": "AgIAAB0AAAAAAAAAAAAUwC8AAAAKAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-06-24T04:24:36.897Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Details.cshtml",
-              "DocumentMoniker": "F:\\back_end\\Back-End Basem\\Ahmed Nasr\\MVC\\CompanySystem.PL\\CompanySystem.PL\\Views\\Employee\\Details.cshtml",
-              "RelativeDocumentMoniker": "Views\\Employee\\Details.cshtml",
-              "ToolTip": "F:\\back_end\\Back-End Basem\\Ahmed Nasr\\MVC\\CompanySystem.PL\\CompanySystem.PL\\Views\\Employee\\Details.cshtml",
-              "RelativeToolTip": "Views\\Employee\\Details.cshtml",
-              "ViewState": "AgIAABIAAAAAAAAAAAAAAAcAAAAGAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-06-24T04:21:50.921Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Edit.cshtml",
-              "DocumentMoniker": "F:\\back_end\\Back-End Basem\\Ahmed Nasr\\MVC\\CompanySystem.PL\\CompanySystem.PL\\Views\\Employee\\Edit.cshtml",
-              "RelativeDocumentMoniker": "Views\\Employee\\Edit.cshtml",
-              "ToolTip": "F:\\back_end\\Back-End Basem\\Ahmed Nasr\\MVC\\CompanySystem.PL\\CompanySystem.PL\\Views\\Employee\\Edit.cshtml",
-              "RelativeToolTip": "Views\\Employee\\Edit.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC8AAAAKAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-06-24T04:21:00.402Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Create.cshtml",
-              "DocumentMoniker": "F:\\back_end\\Back-End Basem\\Ahmed Nasr\\MVC\\CompanySystem.PL\\CompanySystem.PL\\Views\\Employee\\Create.cshtml",
-              "RelativeDocumentMoniker": "Views\\Employee\\Create.cshtml",
-              "ToolTip": "F:\\back_end\\Back-End Basem\\Ahmed Nasr\\MVC\\CompanySystem.PL\\CompanySystem.PL\\Views\\Employee\\Create.cshtml",
-              "RelativeToolTip": "Views\\Employee\\Create.cshtml",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-06-24T04:03:16.072Z",
+              "WhenOpened": "2025-06-25T18:50:00.396Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Employee.cs",
-              "DocumentMoniker": "F:\\back_end\\Back-End Basem\\Ahmed Nasr\\MVC\\CompanySystem.PL\\DAL\\Models\\Employee.cs",
-              "RelativeDocumentMoniker": "..\\DAL\\Models\\Employee.cs",
-              "ToolTip": "F:\\back_end\\Back-End Basem\\Ahmed Nasr\\MVC\\CompanySystem.PL\\DAL\\Models\\Employee.cs",
-              "RelativeToolTip": "..\\DAL\\Models\\Employee.cs",
-              "ViewState": "AgIAABYAAAAAAAAAAAA5wB4AAAAcAAAAAAAAAA==",
+              "Title": "EmployeeRepository.cs",
+              "DocumentMoniker": "F:\\back_end\\Back-End Basem\\Ahmed Nasr\\MVC\\CompanySystem.PL\\BLL\\Repositories\\EmployeeRepository.cs",
+              "RelativeDocumentMoniker": "..\\BLL\\Repositories\\EmployeeRepository.cs",
+              "ToolTip": "F:\\back_end\\Back-End Basem\\Ahmed Nasr\\MVC\\CompanySystem.PL\\BLL\\Repositories\\EmployeeRepository.cs",
+              "RelativeToolTip": "..\\BLL\\Repositories\\EmployeeRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-24T03:55:31.805Z",
+              "WhenOpened": "2025-06-25T18:49:40.657Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "F:\\back_end\\Back-End Basem\\Ahmed Nasr\\MVC\\CompanySystem.PL\\CompanySystem.PL\\Views\\Employee\\Index.cshtml",
-              "RelativeDocumentMoniker": "Views\\Employee\\Index.cshtml",
-              "ToolTip": "F:\\back_end\\Back-End Basem\\Ahmed Nasr\\MVC\\CompanySystem.PL\\CompanySystem.PL\\Views\\Employee\\Index.cshtml",
-              "RelativeToolTip": "Views\\Employee\\Index.cshtml",
-              "ViewState": "AgIAABUAAAAAAAAAAAAAACcAAAA4AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-06-24T03:54:41.429Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "DepartmentController.cs",
-              "DocumentMoniker": "F:\\back_end\\Back-End Basem\\Ahmed Nasr\\MVC\\CompanySystem.PL\\CompanySystem.PL\\Controllers\\DepartmentController.cs",
-              "RelativeDocumentMoniker": "Controllers\\DepartmentController.cs",
-              "ToolTip": "F:\\back_end\\Back-End Basem\\Ahmed Nasr\\MVC\\CompanySystem.PL\\CompanySystem.PL\\Controllers\\DepartmentController.cs",
-              "RelativeToolTip": "Controllers\\DepartmentController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAwwAoAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-23T23:48:25.768Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 2,
               "Title": "EmployeeController.cs",
               "DocumentMoniker": "F:\\back_end\\Back-End Basem\\Ahmed Nasr\\MVC\\CompanySystem.PL\\CompanySystem.PL\\Controllers\\EmployeeController.cs",
               "RelativeDocumentMoniker": "Controllers\\EmployeeController.cs",
               "ToolTip": "F:\\back_end\\Back-End Basem\\Ahmed Nasr\\MVC\\CompanySystem.PL\\CompanySystem.PL\\Controllers\\EmployeeController.cs",
               "RelativeToolTip": "Controllers\\EmployeeController.cs",
-              "ViewState": "AgIAADgAAAAAAAAAAAAswEsAAAA7AAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-23T23:48:20.258Z",
+              "WhenOpened": "2025-06-25T18:41:48.484Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "F:\\back_end\\Back-End Basem\\Ahmed Nasr\\MVC\\CompanySystem.PL\\CompanySystem.PL\\Views\\Employee\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Employee\\Index.cshtml",
+              "ToolTip": "F:\\back_end\\Back-End Basem\\Ahmed Nasr\\MVC\\CompanySystem.PL\\CompanySystem.PL\\Views\\Employee\\Index.cshtml",
+              "RelativeToolTip": "Views\\Employee\\Index.cshtml",
+              "ViewState": "AgIAACoAAAAAAAAAAAAvwDQAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-25T18:40:26.759Z",
               "EditorCaption": ""
             }
           ]

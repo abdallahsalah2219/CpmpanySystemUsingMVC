@@ -7,44 +7,7 @@
 <br />
 <br />
 <div>
-    <div class="form-group">
-        <label asp-for="@Model.Name" class="col-form-label"></label>
-        <input asp-for="@Model.Name" class="form-control" readonly />
-
-    </div>
-    <div class="form-group">
-        <label asp-for="@Model.Age" class="col-form-label"></label>
-        <input asp-for="@Model.Age" class="form-control" readonly />
-        
-    </div>
-    <div class="form-group">
-        <label asp-for="@Model.Address" class="col-form-label"></label>
-        <input asp-for="@Model.Address" class="form-control" readonly />
-        
-    </div>
-    <div class="form-group">
-        <label asp-for="@Model.Salary" class="col-form-label"></label>
-        <input asp-for="@Model.Salary" class="form-control" readonly />
-       
-    </div>
-    <div class="form-check">
-        <input asp-for="@Model.IsActive" class="form-check-input" readonly />
-        <label asp-for="@Model.IsActive" class="col-form-label"></label>
-    </div>
-    <div class="form-group">
-        <label asp-for="@Model.Email" class="col-form-label"></label>
-        <input asp-for="@Model.Email" class="form-control" readonly />
-       
-    </div>
-    <div class="form-group">
-        <label asp-for="@Model.PhoneNumber" class="col-form-label"></label>
-        <input asp-for="@Model.PhoneNumber" class="form-control" readonly />
-       
-    </div>
-    <div class="form-group">
-        <label asp-for="@Model.HireDate" class="col-form-label"></label>
-        <input asp-for="@Model.HireDate" class="form-control" readonly />
-    </div>
+    <partial name="PartialViews/DetailsDeleteEmployeePartial" />
     <br />
    <a asp-action="Edit" asp-route-id="@Model.Id" class="btn btn-secondary" >Edit</a> |
     <a asp-action="Index" class="btn btn-light">Back To List</a>

@@ -18,6 +18,11 @@ namespace DAL.Data.Configurations
            
             builder.Property(D => D.Id)
               .UseIdentityColumn( 10,  10);
+
+            builder.HasMany(D => D.Employees)
+                .WithOne(E=>E.Department)
+                .HasForeignKey(E=>E.DepartmentId)
+                .OnDelete(DeleteBehavior.Cascade);
         }
     }
 }

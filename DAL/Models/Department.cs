@@ -17,5 +17,8 @@ namespace DAL.Models
         [Display(Name = "Date Of Creation")]
         public DateTime DateOfCreation { get; set; }
 
+        // Navigational Property =>[Many]
+        public ICollection<Employee> Employees { get; set; } = new HashSet<Employee>();
+
     }
 }

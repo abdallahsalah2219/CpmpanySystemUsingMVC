@@ -30,10 +30,16 @@ using DAL.Models
 
 #nullable disable
     ;
+#nullable restore
+#line 4 "F:\back_end\Back-End Basem\Ahmed Nasr\MVC\CompanySystem.PL\CompanySystem.PL\Views\_ViewImports.cshtml"
+using BLL.Interfaces
+
+#nullable disable
+    ;
     #line default
     #line hidden
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"Sha256", @"47e02b4da20d198892b7b1b00b12944068797c438ef2e82d20ff70b4d56bad39", @"/Views/_ViewStart.cshtml")]
-    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"Sha256", @"bf26a0470c384eb6691f3911b5b8a7dae15178e90709c913deb8864d1d432dfb", @"/Views/_ViewImports.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"Sha256", @"cc6ff90d363d6110577c2959da36c6a58e788fc12bc9f5ef967c249dfb8a7271", @"/Views/_ViewImports.cshtml")]
     #nullable restore
     internal sealed class Views__ViewStart : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<dynamic>
     #nullable disable

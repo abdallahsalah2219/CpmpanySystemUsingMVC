@@ -8,19 +8,37 @@ namespace CompanySystem.PL.Controllers
     public class EmployeeController : Controller
     {
         private readonly IEmployeeRepository _employeeRepo;
-
-        public EmployeeController(IEmployeeRepository employeeRepo)
+        //private readonly IDepartmentRepository _departmentRepo;
+        public EmployeeController(IEmployeeRepository employeeRepo/*, IDepartmentRepository departmentRepo*/)
         {
             _employeeRepo = employeeRepo;
+            //_departmentRepo = departmentRepo;
         }
         public IActionResult Index()
         {
+
+            //  Binding Through View's Dictionary : Transfer Data From Action To View => [One Way]
+
+            // 1- ViewData
+            // ViewData faster than ViewBag
+            // ViewData is Dictionary Type Property(.Net 3.5)
+            //Transfer Data From Action To View
+            ViewData["Message"] = "Hello ViewData";
+
+            // 2- ViewBag
+            // ViewBag is Dynamic Type Property(.Net 4.0)
+            //Transfer Data From Action To View
+            ViewBag.Message = "Hello ViewBag";
+
             var employees = _employeeRepo.GetAll();
 
             return View(employees);
         }
         public IActionResult Create()
         {
+            //ViewBag.Departments = _departmentRepo.GetAll(); 
+
+
             return View();
         }
         [HttpPost]
@@ -30,8 +48,20 @@ namespace CompanySystem.PL.Controllers
             if (ModelState.IsValid) // Server Side Validation
             { 
                 var count = _employeeRepo.Add(employee);
+
+                // 3- TempData
+                // TempData is Dictionary Type Property(.Net 3.5)
+                // Used to pass data between two consecutive requests.
                 if (count > 0)
-                    return RedirectToAction(nameof(Index));
+                    TempData["Message"] = "Employee Is Created Successfully";
+                   
+                
+                else 
+                    TempData["Message"] = "An Error Has Occured ,Employee not Created ";
+                  
+                
+                return RedirectToAction(nameof(Index));
+
             }
             return View(employee);
         }
@@ -58,6 +88,7 @@ namespace CompanySystem.PL.Controllers
             ///    return NotFound();
             ///return View(Employee);
             ///
+           // ViewBag.Departments = _departmentRepo.GetAll();
 
             return Details(id, "Edit");
         }

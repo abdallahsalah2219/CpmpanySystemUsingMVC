@@ -4,6 +4,20 @@
     ViewData["Title"] = "Index";
 
 }
+@* <div class="alert alert-warning">
+    @ViewData["Message"]
+</div> *@
+@* 
+<div class="alert alert-success">
+   @ViewBag.Message
+</div> *@
+@if (!string.IsNullOrEmpty(TempData["Message"] as string))
+{
+    <div class="alert alert-primary ">
+        @TempData["Message"]
+    </div>
+}
+
 
 <h1>All Employees</h1>
 <br />
@@ -18,6 +32,7 @@
                 <th>@Html.DisplayNameFor(X => X.Name)</th>
                 <th>@Html.DisplayNameFor(X => X.Age)</th>
                 <th>@Html.DisplayNameFor(X => X.Address)</th>
+                <th>@Html.DisplayNameFor(X => X.Department)</th>
                 <th>@Html.DisplayNameFor(X => X.Salary)</th>
                 <th>@Html.DisplayNameFor(X => X.IsActive)</th>
                 <th>@Html.DisplayNameFor(X => X.Email)</th>
@@ -35,26 +50,13 @@
                     <td>@item.Name</td>   
                     <td>@item.Age</td>   
                     <td>@item.Address</td>   
+                    <td>@item.Department?.Name</td>   
                     <td>@Html.DisplayFor(M=>item.Salary)</td>
                     <td>@Html.DisplayFor(M => item.IsActive)</td>
                     <td>@Html.DisplayFor(M => item.Email)</td>
                     <td>@item.PhoneNumber</td>   
                     <td>@item.HireDate</td>   
-                    <td>
-                        <a class="btn btn-warning "  asp-action="Details" asp-route-id="@item.Id">
-                            <i class="fas fa-eye"></i> Details
-                        </a>
-                    </td>
-                    <td>
-                        <a class="btn btn-success "  asp-action="Edit" asp-route-id="@item.Id">
-                            <i class="fas fa-edit"></i> Update
-                        </a>
-                    </td>
-                    <td>
-                        <a class="btn btn-danger"  asp-action="Delete" asp-route-id="@item.Id">
-                            <i class="fas fa-trash"></i> Delete
-                        </a>
-                    </td>
+                    <partial name="_ButtonsPartial" model="@item.Id"/>
              </tr>
             }
         </tbody>
