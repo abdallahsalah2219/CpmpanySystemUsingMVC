@@ -97,7 +97,6 @@ F:\back_end\Back-End Basem\Ahmed Nasr\MVC\CompanySystem.PL\CompanySystem.PL\bin\
 F:\back_end\Back-End Basem\Ahmed Nasr\MVC\CompanySystem.PL\CompanySystem.PL\bin\Debug\net5.0\refs\Microsoft.Extensions.Configuration.KeyPerFile.dll
 F:\back_end\Back-End Basem\Ahmed Nasr\MVC\CompanySystem.PL\CompanySystem.PL\bin\Debug\net5.0\refs\Microsoft.Extensions.Configuration.UserSecrets.dll
 F:\back_end\Back-End Basem\Ahmed Nasr\MVC\CompanySystem.PL\CompanySystem.PL\bin\Debug\net5.0\refs\Microsoft.Extensions.Configuration.Xml.dll
-F:\back_end\Back-End Basem\Ahmed Nasr\MVC\CompanySystem.PL\CompanySystem.PL\bin\Debug\net5.0\refs\Microsoft.Extensions.DependencyInjection.Abstractions.dll
 F:\back_end\Back-End Basem\Ahmed Nasr\MVC\CompanySystem.PL\CompanySystem.PL\bin\Debug\net5.0\refs\Microsoft.Extensions.Diagnostics.HealthChecks.Abstractions.dll
 F:\back_end\Back-End Basem\Ahmed Nasr\MVC\CompanySystem.PL\CompanySystem.PL\bin\Debug\net5.0\refs\Microsoft.Extensions.Diagnostics.HealthChecks.dll
 F:\back_end\Back-End Basem\Ahmed Nasr\MVC\CompanySystem.PL\CompanySystem.PL\bin\Debug\net5.0\refs\Microsoft.Extensions.FileProviders.Abstractions.dll
@@ -123,8 +122,6 @@ F:\back_end\Back-End Basem\Ahmed Nasr\MVC\CompanySystem.PL\CompanySystem.PL\bin\
 F:\back_end\Back-End Basem\Ahmed Nasr\MVC\CompanySystem.PL\CompanySystem.PL\bin\Debug\net5.0\refs\Microsoft.Extensions.ObjectPool.dll
 F:\back_end\Back-End Basem\Ahmed Nasr\MVC\CompanySystem.PL\CompanySystem.PL\bin\Debug\net5.0\refs\Microsoft.Extensions.Options.ConfigurationExtensions.dll
 F:\back_end\Back-End Basem\Ahmed Nasr\MVC\CompanySystem.PL\CompanySystem.PL\bin\Debug\net5.0\refs\Microsoft.Extensions.Options.DataAnnotations.dll
-F:\back_end\Back-End Basem\Ahmed Nasr\MVC\CompanySystem.PL\CompanySystem.PL\bin\Debug\net5.0\refs\Microsoft.Extensions.Options.dll
-F:\back_end\Back-End Basem\Ahmed Nasr\MVC\CompanySystem.PL\CompanySystem.PL\bin\Debug\net5.0\refs\Microsoft.Extensions.Primitives.dll
 F:\back_end\Back-End Basem\Ahmed Nasr\MVC\CompanySystem.PL\CompanySystem.PL\bin\Debug\net5.0\refs\Microsoft.Extensions.WebEncoders.dll
 F:\back_end\Back-End Basem\Ahmed Nasr\MVC\CompanySystem.PL\CompanySystem.PL\bin\Debug\net5.0\refs\Microsoft.JSInterop.dll
 F:\back_end\Back-End Basem\Ahmed Nasr\MVC\CompanySystem.PL\CompanySystem.PL\bin\Debug\net5.0\refs\Microsoft.Net.Http.Headers.dll
@@ -223,7 +220,6 @@ F:\back_end\Back-End Basem\Ahmed Nasr\MVC\CompanySystem.PL\CompanySystem.PL\bin\
 F:\back_end\Back-End Basem\Ahmed Nasr\MVC\CompanySystem.PL\CompanySystem.PL\bin\Debug\net5.0\refs\System.Resources.Reader.dll
 F:\back_end\Back-End Basem\Ahmed Nasr\MVC\CompanySystem.PL\CompanySystem.PL\bin\Debug\net5.0\refs\System.Resources.ResourceManager.dll
 F:\back_end\Back-End Basem\Ahmed Nasr\MVC\CompanySystem.PL\CompanySystem.PL\bin\Debug\net5.0\refs\System.Resources.Writer.dll
-F:\back_end\Back-End Basem\Ahmed Nasr\MVC\CompanySystem.PL\CompanySystem.PL\bin\Debug\net5.0\refs\System.Runtime.CompilerServices.Unsafe.dll
 F:\back_end\Back-End Basem\Ahmed Nasr\MVC\CompanySystem.PL\CompanySystem.PL\bin\Debug\net5.0\refs\System.Runtime.CompilerServices.VisualC.dll
 F:\back_end\Back-End Basem\Ahmed Nasr\MVC\CompanySystem.PL\CompanySystem.PL\bin\Debug\net5.0\refs\System.Runtime.dll
 F:\back_end\Back-End Basem\Ahmed Nasr\MVC\CompanySystem.PL\CompanySystem.PL\bin\Debug\net5.0\refs\System.Runtime.Extensions.dll
@@ -452,3 +448,9 @@ F:\back_end\Back-End Basem\Ahmed Nasr\MVC\CompanySystem.PL\CompanySystem.PL\obj\
 F:\back_end\Back-End Basem\Ahmed Nasr\MVC\CompanySystem.PL\CompanySystem.PL\obj\Debug\net5.0\Razor\Views\Shared\_ButtonsPartial.cshtml.g.cs
 F:\back_end\Back-End Basem\Ahmed Nasr\MVC\CompanySystem.PL\CompanySystem.PL\obj\Debug\net5.0\Razor\Views\Employee\PartialViews\CreateEditEmployeePartial.cshtml.g.cs
 F:\back_end\Back-End Basem\Ahmed Nasr\MVC\CompanySystem.PL\CompanySystem.PL\obj\Debug\net5.0\Razor\Views\Employee\PartialViews\DetailsDeleteEmployeePartial.cshtml.g.cs
+F:\back_end\Back-End Basem\Ahmed Nasr\MVC\CompanySystem.PL\CompanySystem.PL\bin\Debug\net5.0\AutoMapper.dll
+F:\back_end\Back-End Basem\Ahmed Nasr\MVC\CompanySystem.PL\CompanySystem.PL\bin\Debug\net5.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+F:\back_end\Back-End Basem\Ahmed Nasr\MVC\CompanySystem.PL\CompanySystem.PL\bin\Debug\net5.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+F:\back_end\Back-End Basem\Ahmed Nasr\MVC\CompanySystem.PL\CompanySystem.PL\bin\Debug\net5.0\Microsoft.Extensions.Options.dll
+F:\back_end\Back-End Basem\Ahmed Nasr\MVC\CompanySystem.PL\CompanySystem.PL\bin\Debug\net5.0\Microsoft.Extensions.Primitives.dll
+F:\back_end\Back-End Basem\Ahmed Nasr\MVC\CompanySystem.PL\CompanySystem.PL\bin\Debug\net5.0\System.Runtime.CompilerServices.Unsafe.dll

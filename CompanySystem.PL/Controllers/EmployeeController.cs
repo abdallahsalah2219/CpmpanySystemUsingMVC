@@ -1,38 +1,49 @@
-﻿using BLL.Interfaces;
+﻿using AutoMapper;
+using BLL.Interfaces;
+using CompanySystem.PL.ViewModels;
 using DAL.Models;
 using Microsoft.AspNetCore.Mvc;
+using Newtonsoft.Json.Linq;
 using System;
+using System.Collections;
+using System.Collections.Generic;
+using System.Linq;
 
 namespace CompanySystem.PL.Controllers
 {
     public class EmployeeController : Controller
     {
+        private readonly IMapper _mapper;
         private readonly IEmployeeRepository _employeeRepo;
         //private readonly IDepartmentRepository _departmentRepo;
-        public EmployeeController(IEmployeeRepository employeeRepo/*, IDepartmentRepository departmentRepo*/)
+        public EmployeeController(IMapper mapper,IEmployeeRepository employeeRepo/*, IDepartmentRepository departmentRepo*/)
         {
+            _mapper = mapper;
             _employeeRepo = employeeRepo;
             //_departmentRepo = departmentRepo;
         }
-        public IActionResult Index()
+        public IActionResult Index(string searchInp)
         {
 
-            //  Binding Through View's Dictionary : Transfer Data From Action To View => [One Way]
+            /// Binding Through View's Dictionary : Transfer Data From Action To View => [One Way]
+            /// 1- ViewData
+            /// ViewData faster than ViewBag
+            /// ViewData is Dictionary Type Property(.Net 3.5)
+            ///Transfer Data From Action To View
+            ///ViewData["Message"] = "Hello ViewData";
+            /// 2- ViewBag
+            /// ViewBag is Dynamic Type Property(.Net 4.0)
+            ///Transfer Data From Action To View
+            ///ViewBag.Message = "Hello ViewBag";
+          
+            var employees = Enumerable.Empty<Employee>();
+            if(string.IsNullOrEmpty(searchInp))
+              employees = _employeeRepo.GetAll();
+            else
+                employees=_employeeRepo.SearchByName(searchInp.ToLower());
 
-            // 1- ViewData
-            // ViewData faster than ViewBag
-            // ViewData is Dictionary Type Property(.Net 3.5)
-            //Transfer Data From Action To View
-            ViewData["Message"] = "Hello ViewData";
-
-            // 2- ViewBag
-            // ViewBag is Dynamic Type Property(.Net 4.0)
-            //Transfer Data From Action To View
-            ViewBag.Message = "Hello ViewBag";
-
-            var employees = _employeeRepo.GetAll();
-
-            return View(employees);
+            var mappedEmp = _mapper.Map<IEnumerable<Employee>,IEnumerable<EmployeeViewModel>>(employees);
+            return View(mappedEmp);
         }
         public IActionResult Create()
         {
@@ -43,15 +54,29 @@ namespace CompanySystem.PL.Controllers
         }
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public IActionResult Create(Employee employee)
+        public IActionResult Create(EmployeeViewModel employeeVM)
         {
             if (ModelState.IsValid) // Server Side Validation
-            { 
-                var count = _employeeRepo.Add(employee);
+            {
+                //Manual Mapping
+                ///var mappedEmp = new Employee()
+                ///{
+                ///    Name = employeeVM.Name,
+                ///    Age = employeeVM.Age,
+                ///    Address = employeeVM.Address,
+                ///    Salary = employeeVM.Salary,
+                ///    Email = employeeVM.Email,
+                ///    PhoneNumber = employeeVM.PhoneNumber,
+                ///    IsActive = employeeVM.IsActive,
+                ///    HireDate = employeeVM.HireDate,
+                ///};
+                
+                var mappedEmp = _mapper.Map<EmployeeViewModel,Employee>(employeeVM);
+                var count = _employeeRepo.Add(mappedEmp);
 
-                // 3- TempData
-                // TempData is Dictionary Type Property(.Net 3.5)
-                // Used to pass data between two consecutive requests.
+                /// 3- TempData
+                /// TempData is Dictionary Type Property(.Net 3.5)
+                /// Used to pass data between two consecutive requests.
                 if (count > 0)
                     TempData["Message"] = "Employee Is Created Successfully";
                    
@@ -63,20 +88,22 @@ namespace CompanySystem.PL.Controllers
                 return RedirectToAction(nameof(Index));
 
             }
-            return View(employee);
+            return View(employeeVM);
         }
 
-        [HttpGet]
+        //[HttpGet]
         public IActionResult Details(int? id, string viewName = "Details")
         {
             if (!id.HasValue)
                 return BadRequest();// 400
 
-            var Employee = _employeeRepo.Get(id.Value);
+            var employee = _employeeRepo.Get(id.Value);
 
-            if (Employee is null)
+            var mappedEmp = _mapper.Map<Employee, EmployeeViewModel>(employee);
+
+            if (employee is null)
                 return NotFound();// 404
-            return View(viewName, Employee);
+            return View(viewName, mappedEmp);
         }
 
         public IActionResult Edit(int? id)
@@ -95,15 +122,16 @@ namespace CompanySystem.PL.Controllers
         [HttpPost]
 
         [ValidateAntiForgeryToken]
-        public IActionResult Edit([FromRoute] int id, Employee Employee)
+        public IActionResult Edit([FromRoute] int id, EmployeeViewModel employeeVM)
         {
-            if (id != Employee.Id)
+            if (id != employeeVM.Id)
                 return BadRequest();
             if (ModelState.IsValid)
             {
                 try
                 {
-                    _employeeRepo.Update(Employee);
+                    var mappedEmp = _mapper.Map<EmployeeViewModel,Employee>(employeeVM);
+                    _employeeRepo.Update(mappedEmp);
                     return RedirectToAction(nameof(Index));
                 }
                 catch (Exception ex)
@@ -113,7 +141,7 @@ namespace CompanySystem.PL.Controllers
                     ModelState.AddModelError(string.Empty, ex.Message);
                 }
             }
-            return View(Employee);
+            return View(employeeVM);
         }
 
         public IActionResult Delete(int? id)
@@ -123,20 +151,22 @@ namespace CompanySystem.PL.Controllers
 
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public IActionResult Delete([FromRoute] int id, Employee Employee)
+        public IActionResult Delete([FromRoute] int id, EmployeeViewModel employeeVM)
         {
-            if (id != Employee.Id)
+            if (id != employeeVM.Id)
                 return BadRequest();
             try
             {
-                _employeeRepo.Delete(Employee);
+                var mappedEmp = _mapper.Map<EmployeeViewModel, Employee>(employeeVM);
+
+                _employeeRepo.Delete(mappedEmp);
                 return RedirectToAction(nameof(Index));
             }
             catch (Exception ex)
             {
 
                 ModelState.AddModelError(string.Empty, ex.Message);
-                return View(Employee);
+                return View(employeeVM);
             }
 
         }

@@ -3,18 +3,19 @@
   "WorkspaceRootPath": "F:\\back_end\\Back-End Basem\\Ahmed Nasr\\MVC\\CompanySystem.PL\\CompanySystem.PL\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{FF203E04-35D2-401A-A1AF-71ECF59B27FF}|..\\BLL\\BLL.csproj|f:\\back_end\\back-end basem\\ahmed nasr\\mvc\\companysystem.pl\\bll\\repositories\\genericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FF203E04-35D2-401A-A1AF-71ECF59B27FF}|..\\BLL\\BLL.csproj|f:\\back_end\\back-end basem\\ahmed nasr\\mvc\\companysystem.pl\\bll\\repositories\\employeerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{C407C843-D05F-4248-A55B-EB76848CECBC}|CompanySystem.PL.csproj|f:\\back_end\\back-end basem\\ahmed nasr\\mvc\\companysystem.pl\\companysystem.pl\\controllers\\employeecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C407C843-D05F-4248-A55B-EB76848CECBC}|CompanySystem.PL.csproj|solutionrelative:controllers\\employeecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C407C843-D05F-4248-A55B-EB76848CECBC}|CompanySystem.PL.csproj|f:\\back_end\\back-end basem\\ahmed nasr\\mvc\\companysystem.pl\\companysystem.pl\\views\\employee\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{C407C843-D05F-4248-A55B-EB76848CECBC}|CompanySystem.PL.csproj|solutionrelative:views\\employee\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{C407C843-D05F-4248-A55B-EB76848CECBC}|CompanySystem.PL.csproj|f:\\back_end\\back-end basem\\ahmed nasr\\mvc\\companysystem.pl\\companysystem.pl\\helpers\\mappingprofiles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C407C843-D05F-4248-A55B-EB76848CECBC}|CompanySystem.PL.csproj|solutionrelative:helpers\\mappingprofiles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C407C843-D05F-4248-A55B-EB76848CECBC}|CompanySystem.PL.csproj|f:\\back_end\\back-end basem\\ahmed nasr\\mvc\\companysystem.pl\\companysystem.pl\\extensions\\applicationsservicesextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C407C843-D05F-4248-A55B-EB76848CECBC}|CompanySystem.PL.csproj|solutionrelative:extensions\\applicationsservicesextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3A5694A5-9B38-43D8-94F6-50B019C6B867}|..\\DAL\\DAL.csproj|f:\\back_end\\back-end basem\\ahmed nasr\\mvc\\companysystem.pl\\dal\\models\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -24,7 +25,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Bookmark",
@@ -40,54 +41,51 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "GenericRepository.cs",
-              "DocumentMoniker": "F:\\back_end\\Back-End Basem\\Ahmed Nasr\\MVC\\CompanySystem.PL\\BLL\\Repositories\\GenericRepository.cs",
-              "RelativeDocumentMoniker": "..\\BLL\\Repositories\\GenericRepository.cs",
-              "ToolTip": "F:\\back_end\\Back-End Basem\\Ahmed Nasr\\MVC\\CompanySystem.PL\\BLL\\Repositories\\GenericRepository.cs",
-              "RelativeToolTip": "..\\BLL\\Repositories\\GenericRepository.cs",
-              "ViewState": "AgIAACkAAAAAAAAAAAA9wCwAAAAlAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-25T18:50:00.396Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "EmployeeRepository.cs",
-              "DocumentMoniker": "F:\\back_end\\Back-End Basem\\Ahmed Nasr\\MVC\\CompanySystem.PL\\BLL\\Repositories\\EmployeeRepository.cs",
-              "RelativeDocumentMoniker": "..\\BLL\\Repositories\\EmployeeRepository.cs",
-              "ToolTip": "F:\\back_end\\Back-End Basem\\Ahmed Nasr\\MVC\\CompanySystem.PL\\BLL\\Repositories\\EmployeeRepository.cs",
-              "RelativeToolTip": "..\\BLL\\Repositories\\EmployeeRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Title": "MappingProfiles.cs",
+              "DocumentMoniker": "F:\\back_end\\Back-End Basem\\Ahmed Nasr\\MVC\\CompanySystem.PL\\CompanySystem.PL\\Helpers\\MappingProfiles.cs",
+              "RelativeDocumentMoniker": "Helpers\\MappingProfiles.cs",
+              "ToolTip": "F:\\back_end\\Back-End Basem\\Ahmed Nasr\\MVC\\CompanySystem.PL\\CompanySystem.PL\\Helpers\\MappingProfiles.cs",
+              "RelativeToolTip": "Helpers\\MappingProfiles.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAABBAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-25T18:49:40.657Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-27T04:54:41.871Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "ApplicationsServicesExtensions.cs",
+              "DocumentMoniker": "F:\\back_end\\Back-End Basem\\Ahmed Nasr\\MVC\\CompanySystem.PL\\CompanySystem.PL\\Extensions\\ApplicationsServicesExtensions.cs",
+              "RelativeDocumentMoniker": "Extensions\\ApplicationsServicesExtensions.cs",
+              "ToolTip": "F:\\back_end\\Back-End Basem\\Ahmed Nasr\\MVC\\CompanySystem.PL\\CompanySystem.PL\\Extensions\\ApplicationsServicesExtensions.cs",
+              "RelativeToolTip": "Extensions\\ApplicationsServicesExtensions.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAABIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-27T04:50:03.272Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Employee.cs",
+              "DocumentMoniker": "F:\\back_end\\Back-End Basem\\Ahmed Nasr\\MVC\\CompanySystem.PL\\DAL\\Models\\Employee.cs",
+              "RelativeDocumentMoniker": "..\\DAL\\Models\\Employee.cs",
+              "ToolTip": "F:\\back_end\\Back-End Basem\\Ahmed Nasr\\MVC\\CompanySystem.PL\\DAL\\Models\\Employee.cs",
+              "RelativeToolTip": "..\\DAL\\Models\\Employee.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAA3wB8AAABBAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-27T04:42:07.926Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
               "Title": "EmployeeController.cs",
               "DocumentMoniker": "F:\\back_end\\Back-End Basem\\Ahmed Nasr\\MVC\\CompanySystem.PL\\CompanySystem.PL\\Controllers\\EmployeeController.cs",
               "RelativeDocumentMoniker": "Controllers\\EmployeeController.cs",
               "ToolTip": "F:\\back_end\\Back-End Basem\\Ahmed Nasr\\MVC\\CompanySystem.PL\\CompanySystem.PL\\Controllers\\EmployeeController.cs",
               "RelativeToolTip": "Controllers\\EmployeeController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-25T18:41:48.484Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "F:\\back_end\\Back-End Basem\\Ahmed Nasr\\MVC\\CompanySystem.PL\\CompanySystem.PL\\Views\\Employee\\Index.cshtml",
-              "RelativeDocumentMoniker": "Views\\Employee\\Index.cshtml",
-              "ToolTip": "F:\\back_end\\Back-End Basem\\Ahmed Nasr\\MVC\\CompanySystem.PL\\CompanySystem.PL\\Views\\Employee\\Index.cshtml",
-              "RelativeToolTip": "Views\\Employee\\Index.cshtml",
-              "ViewState": "AgIAACoAAAAAAAAAAAAvwDQAAAApAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-06-25T18:40:26.759Z",
+              "WhenOpened": "2025-06-27T03:32:59.039Z",
               "EditorCaption": ""
             }
           ]

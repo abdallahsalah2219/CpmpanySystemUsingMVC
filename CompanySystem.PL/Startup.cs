@@ -4,6 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using BLL.Interfaces;
 using BLL.Repositories;
+using CompanySystem.PL.Extensions;
 using DAL.Data;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
@@ -32,10 +33,8 @@ namespace CompanySystem.PL
             {
                 options.UseSqlServer(Configuration.GetConnectionString("DefaultConnection"));
             });
-            
-            services.AddScoped<IDepartmentRepository,DepartmentRepository>();
-            services.AddScoped<IEmployeeRepository,EmployeeRepository>();
-            services.AddScoped(typeof(IGenericRepository<>), typeof(GenericRepository<>));
+
+            services.AddApplicationsServices(); // Extension Method
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
