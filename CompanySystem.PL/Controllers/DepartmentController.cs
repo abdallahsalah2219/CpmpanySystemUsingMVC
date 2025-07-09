@@ -7,15 +7,18 @@ namespace CompanySystem.PL.Controllers
 {
     public class DepartmentController : Controller
     {
-        private readonly IDepartmentRepository _departmentRepo;
+        private readonly IUnitOfWork _unitOfWork;
 
-        public DepartmentController(IDepartmentRepository departmentRepo)
+        //private readonly IDepartmentRepository _departmentRepo;
+
+        public DepartmentController( IUnitOfWork unitOfWork/*IDepartmentRepository departmentRepo*/)
         {
-            _departmentRepo = departmentRepo;
+            _unitOfWork = unitOfWork;
+            // _departmentRepo = departmentRepo;
         }
         public IActionResult Index()
         {
-            var departments = _departmentRepo.GetAll();
+            var departments = _unitOfWork.DepartmentRepository.GetAll();
 
             return View(departments);
         }
@@ -28,8 +31,10 @@ namespace CompanySystem.PL.Controllers
         {
             if (ModelState.IsValid) // Server Side Validation
             {
-              var count=  _departmentRepo.Add(department);
-                if(count > 0)
+                _unitOfWork.DepartmentRepository.Add(department);
+                
+                var count= _unitOfWork.Complete();
+                if (count > 0)
                     return RedirectToAction(nameof(Index));
             }
             return View(department);
@@ -41,7 +46,7 @@ namespace CompanySystem.PL.Controllers
             if (!id.HasValue)
                 return BadRequest();// 400
 
-            var department = _departmentRepo.Get(id.Value);
+            var department = _unitOfWork.DepartmentRepository.Get(id.Value);
 
             if (department is null)
                 return NotFound();// 404
@@ -71,7 +76,8 @@ namespace CompanySystem.PL.Controllers
             {
                 try
                 {
-                    _departmentRepo.Update(department);
+                    _unitOfWork.DepartmentRepository.Update(department);
+                    _unitOfWork.Complete();
                     return RedirectToAction(nameof(Index));
                 }
                 catch (Exception ex)
@@ -97,7 +103,8 @@ namespace CompanySystem.PL.Controllers
                 return BadRequest();
             try
             {
-                _departmentRepo.Delete(department);
+                _unitOfWork.DepartmentRepository.Delete(department);
+                _unitOfWork.Complete();
                 return RedirectToAction(nameof(Index));
             }
             catch (Exception ex)

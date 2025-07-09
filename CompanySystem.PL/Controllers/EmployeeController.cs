@@ -1,5 +1,6 @@
 ﻿using AutoMapper;
 using BLL.Interfaces;
+using CompanySystem.PL.Helpers;
 using CompanySystem.PL.ViewModels;
 using DAL.Models;
 using Microsoft.AspNetCore.Mvc;
@@ -13,13 +14,15 @@ namespace CompanySystem.PL.Controllers
 {
     public class EmployeeController : Controller
     {
+        private readonly IUnitOfWork _unitOfWork;
         private readonly IMapper _mapper;
-        private readonly IEmployeeRepository _employeeRepo;
+      //  private readonly IEmployeeRepository _employeeRepo;
         //private readonly IDepartmentRepository _departmentRepo;
-        public EmployeeController(IMapper mapper,IEmployeeRepository employeeRepo/*, IDepartmentRepository departmentRepo*/)
+        public EmployeeController(IUnitOfWork unitOfWork,IMapper mapper/*,IEmployeeRepository employeeRepo*//*, IDepartmentRepository departmentRepo*/)
         {
+            _unitOfWork = unitOfWork;
             _mapper = mapper;
-            _employeeRepo = employeeRepo;
+           // _employeeRepo = employeeRepo;
             //_departmentRepo = departmentRepo;
         }
         public IActionResult Index(string searchInp)
@@ -38,9 +41,9 @@ namespace CompanySystem.PL.Controllers
           
             var employees = Enumerable.Empty<Employee>();
             if(string.IsNullOrEmpty(searchInp))
-              employees = _employeeRepo.GetAll();
+              employees = _unitOfWork.EmployeeRepository.GetAll();
             else
-                employees=_employeeRepo.SearchByName(searchInp.ToLower());
+                employees=_unitOfWork.EmployeeRepository.SearchByName(searchInp.ToLower());
 
             var mappedEmp = _mapper.Map<IEnumerable<Employee>,IEnumerable<EmployeeViewModel>>(employees);
             return View(mappedEmp);
@@ -58,6 +61,7 @@ namespace CompanySystem.PL.Controllers
         {
             if (ModelState.IsValid) // Server Side Validation
             {
+               employeeVM.ImageName= DocumentSettings.UploadFile(employeeVM.Image, "images");
                 //Manual Mapping
                 ///var mappedEmp = new Employee()
                 ///{
@@ -72,18 +76,19 @@ namespace CompanySystem.PL.Controllers
                 ///};
                 
                 var mappedEmp = _mapper.Map<EmployeeViewModel,Employee>(employeeVM);
-                var count = _employeeRepo.Add(mappedEmp);
+               /* var count =*/ _unitOfWork.EmployeeRepository.Add(mappedEmp);
 
                 /// 3- TempData
                 /// TempData is Dictionary Type Property(.Net 3.5)
                 /// Used to pass data between two consecutive requests.
-                if (count > 0)
-                    TempData["Message"] = "Employee Is Created Successfully";
+                //if (count > 0)
+                //    TempData["Message"] = "Employee Is Created Successfully";
                    
                 
-                else 
-                    TempData["Message"] = "An Error Has Occured ,Employee not Created ";
+                //else 
+                //    TempData["Message"] = "An Error Has Occured ,Employee not Created ";
                   
+                _unitOfWork.Complete();
                 
                 return RedirectToAction(nameof(Index));
 
@@ -97,7 +102,7 @@ namespace CompanySystem.PL.Controllers
             if (!id.HasValue)
                 return BadRequest();// 400
 
-            var employee = _employeeRepo.Get(id.Value);
+            var employee = _unitOfWork.EmployeeRepository.Get(id.Value);
 
             var mappedEmp = _mapper.Map<Employee, EmployeeViewModel>(employee);
 
@@ -131,7 +136,8 @@ namespace CompanySystem.PL.Controllers
                 try
                 {
                     var mappedEmp = _mapper.Map<EmployeeViewModel,Employee>(employeeVM);
-                    _employeeRepo.Update(mappedEmp);
+                    _unitOfWork.EmployeeRepository.Update(mappedEmp);
+                    _unitOfWork.Complete();
                     return RedirectToAction(nameof(Index));
                 }
                 catch (Exception ex)
@@ -159,7 +165,10 @@ namespace CompanySystem.PL.Controllers
             {
                 var mappedEmp = _mapper.Map<EmployeeViewModel, Employee>(employeeVM);
 
-                _employeeRepo.Delete(mappedEmp);
+                _unitOfWork.EmployeeRepository.Delete(mappedEmp);
+               var count = _unitOfWork.Complete();
+                if (count > 0)
+                    DocumentSettings.DeleteFile(employeeVM.ImageName,"images");
                 return RedirectToAction(nameof(Index));
             }
             catch (Exception ex)

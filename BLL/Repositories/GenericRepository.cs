@@ -17,22 +17,21 @@ namespace BLL.Repositories
         {
             _appDbContext = appDbContext;
         }
-        public int Add(T entity)
-        {
-            _appDbContext.Set<T>().Add(entity);
-            return _appDbContext.SaveChanges();
-        }
-        public int Update(T entity)
-        {
-            _appDbContext.Set<T>().Update(entity);
-            return _appDbContext.SaveChanges();
-        }
+        public void Add(T entity)
+        
+           => _appDbContext.Set<T>().Add(entity);
+           
+        
+        public void Update(T entity)
+           => _appDbContext.Set<T>().Update(entity);
+          
+        
 
-        public int Delete(T entity)
-        {
-           _appDbContext.Set<T>().Remove(entity);
-            return _appDbContext.SaveChanges();
-        }
+        public void Delete(T entity)
+       
+          => _appDbContext.Set<T>().Remove(entity);
+           
+        
 
         public T Get(int id)
         {

@@ -41,6 +41,7 @@
         <thead>
             <tr>
                 <th>@Html.DisplayNameFor(X => X.Name)</th>
+                <th>@Html.DisplayNameFor(X => X.Name)</th>
                 <th>@Html.DisplayNameFor(X => X.Age)</th>
                 <th>@Html.DisplayNameFor(X => X.Address)</th>
                 <th>@Html.DisplayNameFor(X => X.Department)</th>
@@ -49,6 +50,7 @@
                 <th>@Html.DisplayNameFor(X => X.Email)</th>
                 <th>@Html.DisplayNameFor(X => X.PhoneNumber)</th>
                 <th>@Html.DisplayNameFor(X => X.HireDate)</th>
+               
                 <th>Details</th>
                 <th>Update</th>
                 <th>Delete</th>
@@ -58,7 +60,10 @@
             @foreach (var item in Model)
             {
              <tr>
-                    <td>@item.Name</td>   
+                    <td>@item.Name</td>
+                    <td>
+                        <img src="~/files/images/@item.ImageName" width="75" class="img-fluid rounded-circle" />
+                    </td>
                     <td>@item.Age</td>   
                     <td>@item.Address</td>   
                     <td>@item.Department?.Name</td>   
@@ -67,6 +72,7 @@
                     <td>@Html.DisplayFor(M => item.Email)</td>
                     <td>@item.PhoneNumber</td>   
                     <td>@item.HireDate</td>   
+                    
                     <partial name="_ButtonsPartial" model="@item.Id"/>
              </tr>
             }

@@ -30,6 +30,8 @@ namespace DAL.Models
 
         public bool IsDeleted { get; set; } = false;
         public DateTime CreationDate { get; set; }= DateTime.Now;
+
+        public string ImageName { get; set; }
         public int? DepartmentId { get; set; }// Foreign Key Column
         // Navigational Property =>[One]
         public Department Department { get; set; }
