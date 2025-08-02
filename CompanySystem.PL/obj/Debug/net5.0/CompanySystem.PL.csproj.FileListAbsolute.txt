@@ -22,8 +22,6 @@ F:\back_end\Back-End Basem\Ahmed Nasr\MVC\CompanySystem.PL\CompanySystem.PL\bin\
 F:\back_end\Back-End Basem\Ahmed Nasr\MVC\CompanySystem.PL\CompanySystem.PL\bin\Debug\net5.0\refs\Microsoft.AspNetCore.Connections.Abstractions.dll
 F:\back_end\Back-End Basem\Ahmed Nasr\MVC\CompanySystem.PL\CompanySystem.PL\bin\Debug\net5.0\refs\Microsoft.AspNetCore.CookiePolicy.dll
 F:\back_end\Back-End Basem\Ahmed Nasr\MVC\CompanySystem.PL\CompanySystem.PL\bin\Debug\net5.0\refs\Microsoft.AspNetCore.Cors.dll
-F:\back_end\Back-End Basem\Ahmed Nasr\MVC\CompanySystem.PL\CompanySystem.PL\bin\Debug\net5.0\refs\Microsoft.AspNetCore.Cryptography.Internal.dll
-F:\back_end\Back-End Basem\Ahmed Nasr\MVC\CompanySystem.PL\CompanySystem.PL\bin\Debug\net5.0\refs\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
 F:\back_end\Back-End Basem\Ahmed Nasr\MVC\CompanySystem.PL\CompanySystem.PL\bin\Debug\net5.0\refs\Microsoft.AspNetCore.DataProtection.Abstractions.dll
 F:\back_end\Back-End Basem\Ahmed Nasr\MVC\CompanySystem.PL\CompanySystem.PL\bin\Debug\net5.0\refs\Microsoft.AspNetCore.DataProtection.dll
 F:\back_end\Back-End Basem\Ahmed Nasr\MVC\CompanySystem.PL\CompanySystem.PL\bin\Debug\net5.0\refs\Microsoft.AspNetCore.DataProtection.Extensions.dll
@@ -107,8 +105,6 @@ F:\back_end\Back-End Basem\Ahmed Nasr\MVC\CompanySystem.PL\CompanySystem.PL\bin\
 F:\back_end\Back-End Basem\Ahmed Nasr\MVC\CompanySystem.PL\CompanySystem.PL\bin\Debug\net5.0\refs\Microsoft.Extensions.Hosting.Abstractions.dll
 F:\back_end\Back-End Basem\Ahmed Nasr\MVC\CompanySystem.PL\CompanySystem.PL\bin\Debug\net5.0\refs\Microsoft.Extensions.Hosting.dll
 F:\back_end\Back-End Basem\Ahmed Nasr\MVC\CompanySystem.PL\CompanySystem.PL\bin\Debug\net5.0\refs\Microsoft.Extensions.Http.dll
-F:\back_end\Back-End Basem\Ahmed Nasr\MVC\CompanySystem.PL\CompanySystem.PL\bin\Debug\net5.0\refs\Microsoft.Extensions.Identity.Core.dll
-F:\back_end\Back-End Basem\Ahmed Nasr\MVC\CompanySystem.PL\CompanySystem.PL\bin\Debug\net5.0\refs\Microsoft.Extensions.Identity.Stores.dll
 F:\back_end\Back-End Basem\Ahmed Nasr\MVC\CompanySystem.PL\CompanySystem.PL\bin\Debug\net5.0\refs\Microsoft.Extensions.Localization.Abstractions.dll
 F:\back_end\Back-End Basem\Ahmed Nasr\MVC\CompanySystem.PL\CompanySystem.PL\bin\Debug\net5.0\refs\Microsoft.Extensions.Localization.dll
 F:\back_end\Back-End Basem\Ahmed Nasr\MVC\CompanySystem.PL\CompanySystem.PL\bin\Debug\net5.0\refs\Microsoft.Extensions.Logging.Abstractions.dll
@@ -454,3 +450,11 @@ F:\back_end\Back-End Basem\Ahmed Nasr\MVC\CompanySystem.PL\CompanySystem.PL\bin\
 F:\back_end\Back-End Basem\Ahmed Nasr\MVC\CompanySystem.PL\CompanySystem.PL\bin\Debug\net5.0\Microsoft.Extensions.Options.dll
 F:\back_end\Back-End Basem\Ahmed Nasr\MVC\CompanySystem.PL\CompanySystem.PL\bin\Debug\net5.0\Microsoft.Extensions.Primitives.dll
 F:\back_end\Back-End Basem\Ahmed Nasr\MVC\CompanySystem.PL\CompanySystem.PL\bin\Debug\net5.0\System.Runtime.CompilerServices.Unsafe.dll
+F:\back_end\Back-End Basem\Ahmed Nasr\MVC\CompanySystem.PL\CompanySystem.PL\bin\Debug\net5.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+F:\back_end\Back-End Basem\Ahmed Nasr\MVC\CompanySystem.PL\CompanySystem.PL\bin\Debug\net5.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+F:\back_end\Back-End Basem\Ahmed Nasr\MVC\CompanySystem.PL\CompanySystem.PL\bin\Debug\net5.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+F:\back_end\Back-End Basem\Ahmed Nasr\MVC\CompanySystem.PL\CompanySystem.PL\bin\Debug\net5.0\Microsoft.Extensions.Identity.Core.dll
+F:\back_end\Back-End Basem\Ahmed Nasr\MVC\CompanySystem.PL\CompanySystem.PL\bin\Debug\net5.0\Microsoft.Extensions.Identity.Stores.dll
+F:\back_end\Back-End Basem\Ahmed Nasr\MVC\CompanySystem.PL\CompanySystem.PL\obj\Debug\net5.0\Razor\Views\Shared\_AuthLayout.cshtml.g.cs
+F:\back_end\Back-End Basem\Ahmed Nasr\MVC\CompanySystem.PL\CompanySystem.PL\obj\Debug\net5.0\Razor\Views\Account\SignUp.cshtml.g.cs
+F:\back_end\Back-End Basem\Ahmed Nasr\MVC\CompanySystem.PL\CompanySystem.PL\obj\Debug\net5.0\Razor\Views\Account\SignIn.cshtml.g.cs
