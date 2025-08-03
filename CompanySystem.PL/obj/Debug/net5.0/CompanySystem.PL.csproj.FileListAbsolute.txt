@@ -458,3 +458,6 @@ F:\back_end\Back-End Basem\Ahmed Nasr\MVC\CompanySystem.PL\CompanySystem.PL\bin\
 F:\back_end\Back-End Basem\Ahmed Nasr\MVC\CompanySystem.PL\CompanySystem.PL\obj\Debug\net5.0\Razor\Views\Shared\_AuthLayout.cshtml.g.cs
 F:\back_end\Back-End Basem\Ahmed Nasr\MVC\CompanySystem.PL\CompanySystem.PL\obj\Debug\net5.0\Razor\Views\Account\SignUp.cshtml.g.cs
 F:\back_end\Back-End Basem\Ahmed Nasr\MVC\CompanySystem.PL\CompanySystem.PL\obj\Debug\net5.0\Razor\Views\Account\SignIn.cshtml.g.cs
+F:\back_end\Back-End Basem\Ahmed Nasr\MVC\CompanySystem.PL\CompanySystem.PL\obj\Debug\net5.0\Razor\Views\Account\ForgetPassword.cshtml.g.cs
+F:\back_end\Back-End Basem\Ahmed Nasr\MVC\CompanySystem.PL\CompanySystem.PL\obj\Debug\net5.0\Razor\Views\Account\CheckYourInbox.cshtml.g.cs
+F:\back_end\Back-End Basem\Ahmed Nasr\MVC\CompanySystem.PL\CompanySystem.PL\obj\Debug\net5.0\Razor\Views\Account\ResetPassword.cshtml.g.cs

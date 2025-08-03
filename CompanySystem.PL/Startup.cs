@@ -60,7 +60,8 @@ namespace CompanySystem.PL
                 config.Lockout.DefaultLockoutTimeSpan = TimeSpan.FromMinutes(10);
                 config.Lockout.AllowedForNewUsers = true;
 
-            }).AddEntityFrameworkStores<AppDbContext>();
+            }).AddEntityFrameworkStores<AppDbContext>()
+            .AddDefaultTokenProviders();
 
             services.ConfigureApplicationCookie(config => 
             {

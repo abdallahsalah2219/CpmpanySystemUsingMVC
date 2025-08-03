@@ -1,7 +1,9 @@
-﻿using CompanySystem.PL.ViewModels;
+﻿using CompanySystem.PL.Helpers;
+using CompanySystem.PL.ViewModels;
 using DAL.Models;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.VisualStudio.Web.CodeGenerators.Mvc;
 using System.Threading.Tasks;
 
 namespace CompanySystem.PL.Controllers
@@ -78,13 +80,74 @@ namespace CompanySystem.PL.Controllers
             }
             return View(model);
         }
-
+        // Sign Out Action
         public async new Task<IActionResult> SignOut()
         {
             await _signInManager.SignOutAsync();
             return RedirectToAction(nameof(SignIn));
         }
+        // Forget Password Action
+        public IActionResult ForgetPassword()
+        {
+            return View();
+        }
+        [HttpPost]
+        public async Task<IActionResult> SendResetPasswordURL(ForgetPasswordViewModel model)
+        {
+            if (ModelState.IsValid)
+            {
+                var user = await _userManager.FindByEmailAsync(model.Email);
+                if (user is not null)
+                {
+                    var token = _userManager.GeneratePasswordResetTokenAsync(user);// Unique for this user for one-time
+                    var resetPasswordURL = Url.Action("ResetPassword", "Account", new {email = model.Email , token= token },Request.Scheme);
+                    // https://localhost:44323/Account/ResetPassword?email=abdallah@gmail.com&token=asdada2d6as2d36sa2d36s2ad3sa13d2a
+                    var email = new Email()
+                    {
+                        Subject = "Reset Your Password",
+                        Recipients = user.Email,
+                        Body = resetPasswordURL
 
+                    };
+                    EmailSettings.SendEmail(email);
+                    return RedirectToAction(nameof(CheckYourInbox));
+                }
+                ModelState.AddModelError(string.Empty, "Invalid Email");
+            }
+            return View(model);
+        }
+
+        public IActionResult CheckYourInbox() 
+        {
+            return View();
+        }
+
+        public IActionResult ResetPassword(string email, string token)
+        {
+            TempData["email"] = email;
+            TempData["token"] = token;
+            return View();
+        }
+
+        [HttpPost]
+        public async Task<IActionResult> ResetPassword(ResetPasswordViewModel model)
+        {
+            if (ModelState.IsValid)
+            {
+                string email = TempData["email"] as string;
+                string token = TempData["token"] as string;
+
+                var user = await _userManager.FindByEmailAsync(email);
+
+                var result = await _userManager.ResetPasswordAsync(user, token, model.NewPassword);
+                if (result.Succeeded)
+                    return RedirectToAction(nameof(SignIn));
+                foreach (var error in result.Errors)
+                    ModelState.AddModelError(string.Empty, error.Description);
+            }
+            return View(model);
+
+        }
 
     }
 }
