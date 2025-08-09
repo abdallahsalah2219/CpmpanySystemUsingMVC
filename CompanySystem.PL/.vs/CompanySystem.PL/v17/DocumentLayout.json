@@ -3,53 +3,32 @@
   "WorkspaceRootPath": "F:\\back_end\\Back-End Basem\\Ahmed Nasr\\MVC\\CompanySystem.PL\\CompanySystem.PL\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{C407C843-D05F-4248-A55B-EB76848CECBC}|CompanySystem.PL.csproj|f:\\back_end\\back-end basem\\ahmed nasr\\mvc\\companysystem.pl\\companysystem.pl\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C407C843-D05F-4248-A55B-EB76848CECBC}|CompanySystem.PL.csproj|solutionrelative:controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C407C843-D05F-4248-A55B-EB76848CECBC}|CompanySystem.PL.csproj|f:\\back_end\\back-end basem\\ahmed nasr\\mvc\\companysystem.pl\\companysystem.pl\\controllers\\rolecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C407C843-D05F-4248-A55B-EB76848CECBC}|CompanySystem.PL.csproj|solutionrelative:controllers\\rolecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C407C843-D05F-4248-A55B-EB76848CECBC}|CompanySystem.PL.csproj|f:\\back_end\\back-end basem\\ahmed nasr\\mvc\\companysystem.pl\\companysystem.pl\\views\\account\\resetpassword.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{C407C843-D05F-4248-A55B-EB76848CECBC}|CompanySystem.PL.csproj|solutionrelative:views\\account\\resetpassword.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{C407C843-D05F-4248-A55B-EB76848CECBC}|CompanySystem.PL.csproj|f:\\back_end\\back-end basem\\ahmed nasr\\mvc\\companysystem.pl\\companysystem.pl\\views\\role\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C407C843-D05F-4248-A55B-EB76848CECBC}|CompanySystem.PL.csproj|solutionrelative:views\\role\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C407C843-D05F-4248-A55B-EB76848CECBC}|CompanySystem.PL.csproj|f:\\back_end\\back-end basem\\ahmed nasr\\mvc\\companysystem.pl\\companysystem.pl\\viewmodels\\resetpasswordviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C407C843-D05F-4248-A55B-EB76848CECBC}|CompanySystem.PL.csproj|solutionrelative:viewmodels\\resetpasswordviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C407C843-D05F-4248-A55B-EB76848CECBC}|CompanySystem.PL.csproj|f:\\back_end\\back-end basem\\ahmed nasr\\mvc\\companysystem.pl\\companysystem.pl\\views\\role\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C407C843-D05F-4248-A55B-EB76848CECBC}|CompanySystem.PL.csproj|solutionrelative:views\\role\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C407C843-D05F-4248-A55B-EB76848CECBC}|CompanySystem.PL.csproj|f:\\back_end\\back-end basem\\ahmed nasr\\mvc\\companysystem.pl\\companysystem.pl\\views\\account\\signup.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{C407C843-D05F-4248-A55B-EB76848CECBC}|CompanySystem.PL.csproj|solutionrelative:views\\account\\signup.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{C407C843-D05F-4248-A55B-EB76848CECBC}|CompanySystem.PL.csproj|f:\\back_end\\back-end basem\\ahmed nasr\\mvc\\companysystem.pl\\companysystem.pl\\views\\role\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C407C843-D05F-4248-A55B-EB76848CECBC}|CompanySystem.PL.csproj|solutionrelative:views\\role\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C407C843-D05F-4248-A55B-EB76848CECBC}|CompanySystem.PL.csproj|f:\\back_end\\back-end basem\\ahmed nasr\\mvc\\companysystem.pl\\companysystem.pl\\views\\account\\checkyourinbox.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{C407C843-D05F-4248-A55B-EB76848CECBC}|CompanySystem.PL.csproj|solutionrelative:views\\account\\checkyourinbox.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{C407C843-D05F-4248-A55B-EB76848CECBC}|CompanySystem.PL.csproj|f:\\back_end\\back-end basem\\ahmed nasr\\mvc\\companysystem.pl\\companysystem.pl\\views\\employee\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C407C843-D05F-4248-A55B-EB76848CECBC}|CompanySystem.PL.csproj|solutionrelative:views\\employee\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C407C843-D05F-4248-A55B-EB76848CECBC}|CompanySystem.PL.csproj|f:\\back_end\\back-end basem\\ahmed nasr\\mvc\\companysystem.pl\\companysystem.pl\\helpers\\emailsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C407C843-D05F-4248-A55B-EB76848CECBC}|CompanySystem.PL.csproj|solutionrelative:helpers\\emailsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C407C843-D05F-4248-A55B-EB76848CECBC}|CompanySystem.PL.csproj|f:\\back_end\\back-end basem\\ahmed nasr\\mvc\\companysystem.pl\\companysystem.pl\\views\\role\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C407C843-D05F-4248-A55B-EB76848CECBC}|CompanySystem.PL.csproj|solutionrelative:views\\role\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C407C843-D05F-4248-A55B-EB76848CECBC}|CompanySystem.PL.csproj|f:\\back_end\\back-end basem\\ahmed nasr\\mvc\\companysystem.pl\\companysystem.pl\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C407C843-D05F-4248-A55B-EB76848CECBC}|CompanySystem.PL.csproj|solutionrelative:startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C407C843-D05F-4248-A55B-EB76848CECBC}|CompanySystem.PL.csproj|f:\\back_end\\back-end basem\\ahmed nasr\\mvc\\companysystem.pl\\companysystem.pl\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{C407C843-D05F-4248-A55B-EB76848CECBC}|CompanySystem.PL.csproj|solutionrelative:properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C407C843-D05F-4248-A55B-EB76848CECBC}|CompanySystem.PL.csproj|f:\\back_end\\back-end basem\\ahmed nasr\\mvc\\companysystem.pl\\companysystem.pl\\views\\account\\signin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{C407C843-D05F-4248-A55B-EB76848CECBC}|CompanySystem.PL.csproj|solutionrelative:views\\account\\signin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C407C843-D05F-4248-A55B-EB76848CECBC}|CompanySystem.PL.csproj|f:\\back_end\\back-end basem\\ahmed nasr\\mvc\\companysystem.pl\\companysystem.pl\\viewmodels\\employeeviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C407C843-D05F-4248-A55B-EB76848CECBC}|CompanySystem.PL.csproj|solutionrelative:viewmodels\\employeeviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FF203E04-35D2-401A-A1AF-71ECF59B27FF}|..\\BLL\\BLL.csproj|f:\\back_end\\back-end basem\\ahmed nasr\\mvc\\companysystem.pl\\bll\\repositories\\unitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FF203E04-35D2-401A-A1AF-71ECF59B27FF}|..\\BLL\\BLL.csproj|f:\\back_end\\back-end basem\\ahmed nasr\\mvc\\companysystem.pl\\bll\\interfaces\\iunitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3A5694A5-9B38-43D8-94F6-50B019C6B867}|..\\DAL\\DAL.csproj|f:\\back_end\\back-end basem\\ahmed nasr\\mvc\\companysystem.pl\\dal\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C407C843-D05F-4248-A55B-EB76848CECBC}|CompanySystem.PL.csproj|f:\\back_end\\back-end basem\\ahmed nasr\\mvc\\companysystem.pl\\companysystem.pl\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C407C843-D05F-4248-A55B-EB76848CECBC}|CompanySystem.PL.csproj|solutionrelative:controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -59,7 +38,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 9,
           "Children": [
             {
               "$type": "Bookmark",
@@ -79,165 +58,94 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "ResetPasswordViewModel.cs",
-              "DocumentMoniker": "F:\\back_end\\Back-End Basem\\Ahmed Nasr\\MVC\\CompanySystem.PL\\CompanySystem.PL\\ViewModels\\ResetPasswordViewModel.cs",
-              "RelativeDocumentMoniker": "ViewModels\\ResetPasswordViewModel.cs",
-              "ToolTip": "F:\\back_end\\Back-End Basem\\Ahmed Nasr\\MVC\\CompanySystem.PL\\CompanySystem.PL\\ViewModels\\ResetPasswordViewModel.cs",
-              "RelativeToolTip": "ViewModels\\ResetPasswordViewModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAHAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-03T16:28:48.592Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "ResetPassword.cshtml",
-              "DocumentMoniker": "F:\\back_end\\Back-End Basem\\Ahmed Nasr\\MVC\\CompanySystem.PL\\CompanySystem.PL\\Views\\Account\\ResetPassword.cshtml",
-              "RelativeDocumentMoniker": "Views\\Account\\ResetPassword.cshtml",
-              "ToolTip": "F:\\back_end\\Back-End Basem\\Ahmed Nasr\\MVC\\CompanySystem.PL\\CompanySystem.PL\\Views\\Account\\ResetPassword.cshtml",
-              "RelativeToolTip": "Views\\Account\\ResetPassword.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAAAAAAAAAAAA==",
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "F:\\back_end\\Back-End Basem\\Ahmed Nasr\\MVC\\CompanySystem.PL\\CompanySystem.PL\\Views\\Role\\Details.cshtml",
+              "RelativeDocumentMoniker": "Views\\Role\\Details.cshtml",
+              "ToolTip": "F:\\back_end\\Back-End Basem\\Ahmed Nasr\\MVC\\CompanySystem.PL\\CompanySystem.PL\\Views\\Role\\Details.cshtml",
+              "RelativeToolTip": "Views\\Role\\Details.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-08-03T16:27:49.267Z",
+              "WhenOpened": "2025-08-09T14:59:44.65Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "AccountController.cs",
-              "DocumentMoniker": "F:\\back_end\\Back-End Basem\\Ahmed Nasr\\MVC\\CompanySystem.PL\\CompanySystem.PL\\Controllers\\AccountController.cs",
-              "RelativeDocumentMoniker": "Controllers\\AccountController.cs",
-              "ToolTip": "F:\\back_end\\Back-End Basem\\Ahmed Nasr\\MVC\\CompanySystem.PL\\CompanySystem.PL\\Controllers\\AccountController.cs",
-              "RelativeToolTip": "Controllers\\AccountController.cs",
-              "ViewState": "AgIAABwAAAAAAAAAAADwv30AAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-16T12:37:23.298Z",
+              "DocumentIndex": 2,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "F:\\back_end\\Back-End Basem\\Ahmed Nasr\\MVC\\CompanySystem.PL\\CompanySystem.PL\\Views\\Role\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Views\\Role\\Edit.cshtml",
+              "ToolTip": "F:\\back_end\\Back-End Basem\\Ahmed Nasr\\MVC\\CompanySystem.PL\\CompanySystem.PL\\Views\\Role\\Edit.cshtml",
+              "RelativeToolTip": "Views\\Role\\Edit.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-09T14:59:41.003Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "F:\\back_end\\Back-End Basem\\Ahmed Nasr\\MVC\\CompanySystem.PL\\CompanySystem.PL\\Views\\Role\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Role\\Index.cshtml",
+              "ToolTip": "F:\\back_end\\Back-End Basem\\Ahmed Nasr\\MVC\\CompanySystem.PL\\CompanySystem.PL\\Views\\Role\\Index.cshtml",
+              "RelativeToolTip": "Views\\Role\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAABYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-09T14:59:14.772Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "CheckYourInbox.cshtml",
-              "DocumentMoniker": "F:\\back_end\\Back-End Basem\\Ahmed Nasr\\MVC\\CompanySystem.PL\\CompanySystem.PL\\Views\\Account\\CheckYourInbox.cshtml",
-              "RelativeDocumentMoniker": "Views\\Account\\CheckYourInbox.cshtml",
-              "ToolTip": "F:\\back_end\\Back-End Basem\\Ahmed Nasr\\MVC\\CompanySystem.PL\\CompanySystem.PL\\Views\\Account\\CheckYourInbox.cshtml",
-              "RelativeToolTip": "Views\\Account\\CheckYourInbox.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "F:\\back_end\\Back-End Basem\\Ahmed Nasr\\MVC\\CompanySystem.PL\\CompanySystem.PL\\Views\\Employee\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Employee\\Index.cshtml",
+              "ToolTip": "F:\\back_end\\Back-End Basem\\Ahmed Nasr\\MVC\\CompanySystem.PL\\CompanySystem.PL\\Views\\Employee\\Index.cshtml",
+              "RelativeToolTip": "Views\\Employee\\Index.cshtml",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABIAAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-08-02T18:22:53.614Z",
+              "WhenOpened": "2025-08-09T14:56:00.026Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "EmailSettings.cs",
-              "DocumentMoniker": "F:\\back_end\\Back-End Basem\\Ahmed Nasr\\MVC\\CompanySystem.PL\\CompanySystem.PL\\Helpers\\EmailSettings.cs",
-              "RelativeDocumentMoniker": "Helpers\\EmailSettings.cs",
-              "ToolTip": "F:\\back_end\\Back-End Basem\\Ahmed Nasr\\MVC\\CompanySystem.PL\\CompanySystem.PL\\Helpers\\EmailSettings.cs",
-              "RelativeToolTip": "Helpers\\EmailSettings.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAABiAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-02T17:30:58.44Z",
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "F:\\back_end\\Back-End Basem\\Ahmed Nasr\\MVC\\CompanySystem.PL\\CompanySystem.PL\\Views\\Role\\Create.cshtml",
+              "RelativeDocumentMoniker": "Views\\Role\\Create.cshtml",
+              "ToolTip": "F:\\back_end\\Back-End Basem\\Ahmed Nasr\\MVC\\CompanySystem.PL\\CompanySystem.PL\\Views\\Role\\Create.cshtml",
+              "RelativeToolTip": "Views\\Role\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-09T14:22:14.304Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "SignIn.cshtml",
-              "DocumentMoniker": "F:\\back_end\\Back-End Basem\\Ahmed Nasr\\MVC\\CompanySystem.PL\\CompanySystem.PL\\Views\\Account\\SignIn.cshtml",
-              "RelativeDocumentMoniker": "Views\\Account\\SignIn.cshtml",
-              "ToolTip": "F:\\back_end\\Back-End Basem\\Ahmed Nasr\\MVC\\CompanySystem.PL\\CompanySystem.PL\\Views\\Account\\SignIn.cshtml",
-              "RelativeToolTip": "Views\\Account\\SignIn.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-07-21T09:50:43.484Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "SignUp.cshtml",
-              "DocumentMoniker": "F:\\back_end\\Back-End Basem\\Ahmed Nasr\\MVC\\CompanySystem.PL\\CompanySystem.PL\\Views\\Account\\SignUp.cshtml",
-              "RelativeDocumentMoniker": "Views\\Account\\SignUp.cshtml",
-              "ToolTip": "F:\\back_end\\Back-End Basem\\Ahmed Nasr\\MVC\\CompanySystem.PL\\CompanySystem.PL\\Views\\Account\\SignUp.cshtml",
-              "RelativeToolTip": "Views\\Account\\SignUp.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-07-16T12:54:01.285Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "launchSettings.json",
-              "DocumentMoniker": "F:\\back_end\\Back-End Basem\\Ahmed Nasr\\MVC\\CompanySystem.PL\\CompanySystem.PL\\Properties\\launchSettings.json",
-              "RelativeDocumentMoniker": "Properties\\launchSettings.json",
-              "ToolTip": "F:\\back_end\\Back-End Basem\\Ahmed Nasr\\MVC\\CompanySystem.PL\\CompanySystem.PL\\Properties\\launchSettings.json",
-              "RelativeToolTip": "Properties\\launchSettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAWAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-08-02T18:33:28.488Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "AppDbContext.cs",
-              "DocumentMoniker": "F:\\back_end\\Back-End Basem\\Ahmed Nasr\\MVC\\CompanySystem.PL\\DAL\\Data\\AppDbContext.cs",
-              "RelativeDocumentMoniker": "..\\DAL\\Data\\AppDbContext.cs",
-              "ToolTip": "F:\\back_end\\Back-End Basem\\Ahmed Nasr\\MVC\\CompanySystem.PL\\DAL\\Data\\AppDbContext.cs",
-              "RelativeToolTip": "..\\DAL\\Data\\AppDbContext.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAwAAABBAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "RoleController.cs",
+              "DocumentMoniker": "F:\\back_end\\Back-End Basem\\Ahmed Nasr\\MVC\\CompanySystem.PL\\CompanySystem.PL\\Controllers\\RoleController.cs",
+              "RelativeDocumentMoniker": "Controllers\\RoleController.cs",
+              "ToolTip": "F:\\back_end\\Back-End Basem\\Ahmed Nasr\\MVC\\CompanySystem.PL\\CompanySystem.PL\\Controllers\\RoleController.cs",
+              "RelativeToolTip": "Controllers\\RoleController.cs",
+              "ViewState": "AgIAACAAAAAAAAAAAAAQwDMAAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-15T12:33:14.652Z"
+              "WhenOpened": "2025-08-09T13:48:30.929Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
-              "Title": "Startup.cs",
-              "DocumentMoniker": "F:\\back_end\\Back-End Basem\\Ahmed Nasr\\MVC\\CompanySystem.PL\\CompanySystem.PL\\Startup.cs",
-              "RelativeDocumentMoniker": "Startup.cs",
-              "ToolTip": "F:\\back_end\\Back-End Basem\\Ahmed Nasr\\MVC\\CompanySystem.PL\\CompanySystem.PL\\Startup.cs",
-              "RelativeToolTip": "Startup.cs",
-              "ViewState": "AgIAADQAAAAAAAAAAAAswD8AAAAlAAAAAAAAAA==",
+              "Title": "UserController.cs",
+              "DocumentMoniker": "F:\\back_end\\Back-End Basem\\Ahmed Nasr\\MVC\\CompanySystem.PL\\CompanySystem.PL\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "Controllers\\UserController.cs",
+              "ToolTip": "F:\\back_end\\Back-End Basem\\Ahmed Nasr\\MVC\\CompanySystem.PL\\CompanySystem.PL\\Controllers\\UserController.cs",
+              "RelativeToolTip": "Controllers\\UserController.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAwLUAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-17T11:44:47.781Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "IUnitOfWork.cs",
-              "DocumentMoniker": "F:\\back_end\\Back-End Basem\\Ahmed Nasr\\MVC\\CompanySystem.PL\\BLL\\Interfaces\\IUnitOfWork.cs",
-              "RelativeDocumentMoniker": "..\\BLL\\Interfaces\\IUnitOfWork.cs",
-              "ToolTip": "F:\\back_end\\Back-End Basem\\Ahmed Nasr\\MVC\\CompanySystem.PL\\BLL\\Interfaces\\IUnitOfWork.cs",
-              "RelativeToolTip": "..\\BLL\\Interfaces\\IUnitOfWork.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAsAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-23T11:09:01.651Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "UnitOfWork.cs",
-              "DocumentMoniker": "F:\\back_end\\Back-End Basem\\Ahmed Nasr\\MVC\\CompanySystem.PL\\BLL\\Repositories\\UnitOfWork.cs",
-              "RelativeDocumentMoniker": "..\\BLL\\Repositories\\UnitOfWork.cs",
-              "ToolTip": "F:\\back_end\\Back-End Basem\\Ahmed Nasr\\MVC\\CompanySystem.PL\\BLL\\Repositories\\UnitOfWork.cs",
-              "RelativeToolTip": "..\\BLL\\Repositories\\UnitOfWork.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAuwBcAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-23T11:09:12.599Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "EmployeeViewModel.cs",
-              "DocumentMoniker": "F:\\back_end\\Back-End Basem\\Ahmed Nasr\\MVC\\CompanySystem.PL\\CompanySystem.PL\\ViewModels\\EmployeeViewModel.cs",
-              "RelativeDocumentMoniker": "ViewModels\\EmployeeViewModel.cs",
-              "ToolTip": "F:\\back_end\\Back-End Basem\\Ahmed Nasr\\MVC\\CompanySystem.PL\\CompanySystem.PL\\ViewModels\\EmployeeViewModel.cs",
-              "RelativeToolTip": "ViewModels\\EmployeeViewModel.cs",
-              "ViewState": "AgIAAB4AAAAAAAAAAAAywCgAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-24T12:12:13.423Z"
+              "WhenOpened": "2025-08-07T11:00:09.457Z",
+              "EditorCaption": ""
             }
           ]
         }

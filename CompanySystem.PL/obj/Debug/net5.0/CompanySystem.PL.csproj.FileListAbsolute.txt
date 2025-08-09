@@ -461,3 +461,16 @@ F:\back_end\Back-End Basem\Ahmed Nasr\MVC\CompanySystem.PL\CompanySystem.PL\obj\
 F:\back_end\Back-End Basem\Ahmed Nasr\MVC\CompanySystem.PL\CompanySystem.PL\obj\Debug\net5.0\Razor\Views\Account\ForgetPassword.cshtml.g.cs
 F:\back_end\Back-End Basem\Ahmed Nasr\MVC\CompanySystem.PL\CompanySystem.PL\obj\Debug\net5.0\Razor\Views\Account\CheckYourInbox.cshtml.g.cs
 F:\back_end\Back-End Basem\Ahmed Nasr\MVC\CompanySystem.PL\CompanySystem.PL\obj\Debug\net5.0\Razor\Views\Account\ResetPassword.cshtml.g.cs
+F:\back_end\Back-End Basem\Ahmed Nasr\MVC\CompanySystem.PL\CompanySystem.PL\obj\Debug\net5.0\Razor\Views\User\Index.cshtml.g.cs
+F:\back_end\Back-End Basem\Ahmed Nasr\MVC\CompanySystem.PL\CompanySystem.PL\obj\Debug\net5.0\Razor\Views\User\Details.cshtml.g.cs
+F:\back_end\Back-End Basem\Ahmed Nasr\MVC\CompanySystem.PL\CompanySystem.PL\obj\Debug\net5.0\Razor\Views\User\PartialViews\CreateEditUserPartial.cshtml.g.cs
+F:\back_end\Back-End Basem\Ahmed Nasr\MVC\CompanySystem.PL\CompanySystem.PL\obj\Debug\net5.0\Razor\Views\User\PartialViews\DetailsDeleteUserPartial.cshtml.g.cs
+F:\back_end\Back-End Basem\Ahmed Nasr\MVC\CompanySystem.PL\CompanySystem.PL\obj\Debug\net5.0\Razor\Views\User\Edit.cshtml.g.cs
+F:\back_end\Back-End Basem\Ahmed Nasr\MVC\CompanySystem.PL\CompanySystem.PL\obj\Debug\net5.0\Razor\Views\User\Delete.cshtml.g.cs
+F:\back_end\Back-End Basem\Ahmed Nasr\MVC\CompanySystem.PL\CompanySystem.PL\obj\Debug\net5.0\Razor\Views\Role\Create.cshtml.g.cs
+F:\back_end\Back-End Basem\Ahmed Nasr\MVC\CompanySystem.PL\CompanySystem.PL\obj\Debug\net5.0\Razor\Views\Role\Delete.cshtml.g.cs
+F:\back_end\Back-End Basem\Ahmed Nasr\MVC\CompanySystem.PL\CompanySystem.PL\obj\Debug\net5.0\Razor\Views\Role\Details.cshtml.g.cs
+F:\back_end\Back-End Basem\Ahmed Nasr\MVC\CompanySystem.PL\CompanySystem.PL\obj\Debug\net5.0\Razor\Views\Role\Edit.cshtml.g.cs
+F:\back_end\Back-End Basem\Ahmed Nasr\MVC\CompanySystem.PL\CompanySystem.PL\obj\Debug\net5.0\Razor\Views\Role\Index.cshtml.g.cs
+F:\back_end\Back-End Basem\Ahmed Nasr\MVC\CompanySystem.PL\CompanySystem.PL\obj\Debug\net5.0\Razor\Views\Role\PartialViews\CreateEditRolePartial.cshtml.g.cs
+F:\back_end\Back-End Basem\Ahmed Nasr\MVC\CompanySystem.PL\CompanySystem.PL\obj\Debug\net5.0\Razor\Views\Role\PartialViews\DetailsDeleteRolePartial.cshtml.g.cs

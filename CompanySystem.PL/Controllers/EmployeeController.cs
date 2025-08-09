@@ -150,7 +150,7 @@ namespace CompanySystem.PL.Controllers
             return View(employeeVM);
         }
 
-        public IActionResult Delete(int? id)
+        public  IActionResult Delete(int? id)
         {
             return Details(id, "Delete");
         }
